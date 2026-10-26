@@ -1,1 +1,4332 @@
-local v0=tonumber;local v1=string.byte;local v2=string.char;local v3=string.sub;local v4=string.gsub;local v5=string.rep;local v6=table.concat;local v7=table.insert;local v8=math.ldexp;local v9=getfenv or function() return _ENV;end ;local v10=setmetatable;local v11=pcall;local v12=select;local v13=unpack or table.unpack ;local v14=tonumber;local function v15(v16,v17,...) local v18=1;local v19;v16=v4(v3(v16,5),"..",function(v30) if (v1(v30,2)==81) then local v87=0;while true do if (v87==0) then v19=v0(v3(v30,1,1));return "";end end else local v88=v2(v0(v30,16));if v19 then local v112=0;local v113;while true do if (v112==1) then return v113;end if (v112==0) then v113=v5(v88,v19);v19=nil;v112=1;end end else return v88;end end end);local function v20(v31,v32,v33) if v33 then local v89=0 -0 ;local v90;while true do if (v89==0) then v90=(v31/((5 -3)^(v32-(1 -0))))%((4 -2)^(((v33-((1497 -(282 + 595)) -(555 + 64))) -(v32-(932 -(857 + 74)))) + (569 -(367 + 201)))) ;return v90-(v90%1) ;end end else local v91=(929 -(214 + 713))^(v32-1) ;return (((v31%(v91 + v91))>=v91) and ((1638 -(1523 + 114)) + 0)) or (0 + 0) ;end end local function v21() local v34=0 + 0 ;local v35;while true do if (v34==(1 -0)) then return v35;end if (v34==(1065 -(68 + 997))) then v35=v1(v16,v18,v18);v18=v18 + ((1388 -(32 + 85)) -(226 + 1044)) ;v34=4 -3 ;end end end local function v22() local v36,v37=v1(v16,v18,v18 + 2 + 0 );v18=v18 + 1 + 1 ;return (v37 * (1213 -(892 + 65))) + v36 ;end local function v23() local v38=0;local v39;local v40;local v41;local v42;while true do if (v38==(1 + 0 + 0)) then return (v42 * (40022563 -(23246344 -(915 + 82)))) + (v41 * (121138 -55602)) + (v40 * (1017 -761)) + v39 ;end if (v38==(0 -0)) then v39,v40,v41,v42=v1(v16,v18,v18 + (353 -(87 + 263)) );v18=v18 + (10 -6) ;v38=181 -(67 + 113) ;end end end local function v24() local v43=0;local v44;local v45;local v46;local v47;local v48;local v49;while true do if (v43==((867 -(814 + 45)) -(12 -7))) then if (v48==0) then if (v47==(0 + 0)) then return v49 * (0 -0) ;else v48=1188 -(1069 + 118) ;v46=0 -0 ;end elseif (v48==(4477 -(131 + 2299))) then return ((v47==(0 + 0 + 0)) and (v49 * ((1 -0)/(0 + 0)))) or (v49 * NaN) ;end return v8(v49,v48-(1814 -(368 + (1308 -(261 + 624)))) ) * (v46 + (v47/((6 -4)^(70 -(10 + 8))))) ;end if (v43==(3 -2)) then v46=1;v47=(v20(v45,443 -(416 + 26) ,63 -43 ) * ((1 + 1)^(56 -24))) + v44 ;v43=440 -((257 -112) + (1373 -(1020 + 60))) ;end if ((430 -(44 + 386))==v43) then v44=v23();v45=v23();v43=1487 -(998 + 488) ;end if ((1 + 1)==v43) then v48=v20(v45,18 + 3 ,(2226 -(630 + 793)) -(201 + 571) );v49=((v20(v45,1170 -(116 + 1022) )==(4 -3)) and  -(1 + 0)) or (3 -(6 -4)) ;v43=10 -7 ;end end end local function v25(v50) local v51=(0 -0) -0 ;local v52;local v53;while true do if (v51==(1 + 1)) then v53={};for v114=3 -2 , #v52 do v53[v114]=v2(v1(v3(v52,v114,v114)));end v51=1750 -(7 + 753 + 775 + 212) ;end if ((1914 -(1789 + (1179 -(87 + 968))))==v51) then v52=v3(v16,v18,(v18 + v50) -(767 -(745 + 21)) );v18=v18 + v50 ;v51=2;end if (0==v51) then v52=nil;if  not v50 then v50=v23();if (v50==(0 -0)) then return "";end end v51=1 + 0 ;end if (v51==(7 -4)) then return v6(v53);end end end local v26=v23;local function v27(...) return {...},v12("#",...);end local function v28() local v54=(function() return function(v92,v93,v94,v95,v96,v97,v98,v99) local v92=(function() return 0;end)();local v93=(function() return;end)();local v95=(function() return;end)();while true do if (v92==(0 -0)) then local v120=(function() return 1665 -(970 + 695) ;end)();while true do if (0~=v120) then else v93=(function() return v94();end)();v95=(function() return nil;end)();v120=(function() return 1 -0 ;end)();end if (v120==1) then v92=(function() return  #",";end)();break;end end end if (v92== #":") then if (v93== #"}") then v95=(function() return v94()~=(1990 -(582 + 1408)) ;end)();elseif (v93==2) then v95=(function() return v96();end)();elseif (v93== #"xnx") then v95=(function() return v97();end)();end v98[v99]=(function() return v95;end)();break;end end return v92,v93,v94,v95,v96,v97,v98,v99;end;end)();local v55=(function() return function(v100,v101,v102) local v103=(function() return 0 -0 ;end)();local v104=(function() return;end)();while true do if (v103==0) then v104=(function() return 0 -0 ;end)();while true do if (v104~=(0 -0)) then else local v128=(function() return 1824 -(1195 + 629) ;end)();while true do if (v128~=(0 -0)) then else local v136=(function() return 0;end)();while true do if (v136==0) then v100[v101-#"~" ]=(function() return v102();end)();return v100,v101,v102;end end end end end end break;end end end;end)();local v56=(function() return {};end)();local v57=(function() return {};end)();local v58=(function() return {};end)();local v59=(function() return {v56,v57,nil,v58};end)();local v60=(function() return v23();end)();local v61=(function() return {};end)();for v69= #"~",v60 do FlatIdent_946F,Type,v21,Cons,v24,v25,v61,v69=(function() return v54(FlatIdent_946F,Type,v21,Cons,v24,v25,v61,v69);end)();end v59[ #"19("]=(function() return v21();end)();for v70= #"~",v23() do local v71=(function() return v21();end)();if (v20(v71, #"~", #"{")==(241 -(187 + 54))) then local v107=(function() return 780 -(162 + 618) ;end)();local v108=(function() return;end)();local v109=(function() return;end)();local v110=(function() return;end)();local v111=(function() return;end)();while true do if (2==v107) then while true do if (v108== #"nil") then if (v20(v110, #"-19", #"-19")== #":") then v111[ #".dev"]=(function() return v61[v111[ #"xnxx"]];end)();end v56[v70]=(function() return v111;end)();break;end if (v108== #"[") then local v130=(function() return 0 + 0 ;end)();local v131=(function() return;end)();while true do if (v130~=0) then else v131=(function() return 0;end)();while true do if (v131~=(0 + 0)) then else v111=(function() return {v22(),v22(),nil,nil};end)();if (v109==(0 -0)) then local v181=(function() return 0 -0 ;end)();local v182=(function() return;end)();while true do if (v181==(0 + 0)) then v182=(function() return 0;end)();while true do if (v182==(1636 -(1373 + 263))) then v111[ #"-19"]=(function() return v22();end)();v111[ #"xnxx"]=(function() return v22();end)();break;end end break;end end elseif (v109== #"\\") then v111[ #"91("]=(function() return v23();end)();elseif (v109==2) then v111[ #"asd"]=(function() return v23() -(2^16) ;end)();elseif (v109== #"91(") then local v191=(function() return 1000 -(451 + 549) ;end)();local v192=(function() return;end)();while true do if (v191==0) then v192=(function() return 0 + 0 ;end)();while true do if (v192~=0) then else v111[ #"-19"]=(function() return v23() -(2^(24 -8)) ;end)();v111[ #".com"]=(function() return v22();end)();break;end end break;end end end v131=(function() return 1;end)();end if (v131~=(1 -0)) then else v108=(function() return 1386 -(746 + 638) ;end)();break;end end break;end end end if (v108~=(1 + 1)) then else local v132=(function() return 0 -0 ;end)();local v133=(function() return;end)();while true do if (v132~=0) then else v133=(function() return 0;end)();while true do if (v133==(342 -(218 + 123))) then v108=(function() return  #"gha";end)();break;end if (v133==(1581 -(1535 + 46))) then if (v20(v110, #",", #"<")== #".") then v111[2 + 0 ]=(function() return v61[v111[2]];end)();end if (v20(v110,2,1 + 1 )~= #"/") then else v111[ #"xnx"]=(function() return v61[v111[ #"nil"]];end)();end v133=(function() return 1;end)();end end break;end end end if (v108==(560 -(306 + 254))) then local v134=(function() return 0 + 0 ;end)();local v135=(function() return;end)();while true do if (v134==0) then v135=(function() return 0;end)();while true do if (v135~=0) then else v109=(function() return v20(v71,3 -1 , #"gha");end)();v110=(function() return v20(v71, #"http",1473 -(899 + 568) );end)();v135=(function() return 1 + 0 ;end)();end if (v135~=(2 -1)) then else v108=(function() return  #"\\";end)();break;end end break;end end end end break;end if ((603 -(268 + 335))~=v107) then else local v124=(function() return 0;end)();local v125=(function() return;end)();while true do if (v124==(290 -(60 + 230))) then v125=(function() return 572 -(426 + 146) ;end)();while true do if (v125==(0 + 0)) then v108=(function() return 1456 -(282 + 1174) ;end)();v109=(function() return nil;end)();v125=(function() return 812 -(569 + 242) ;end)();end if (v125==(2 -1)) then v107=(function() return 1 + 0 ;end)();break;end end break;end end end if (v107==(1025 -(706 + 318))) then local v126=(function() return 0;end)();local v127=(function() return;end)();while true do if (v126~=(1251 -(721 + 530))) then else v127=(function() return 0;end)();while true do if (v127~=(1272 -(945 + 326))) then else v107=(function() return 4 -2 ;end)();break;end if (v127==(0 + 0)) then v110=(function() return nil;end)();v111=(function() return nil;end)();v127=(function() return 701 -(271 + 429) ;end)();end end break;end end end end end end for v72= #".",v23() do v57,v72,v28=(function() return v55(v57,v72,v28);end)();end return v59;end local function v29(v63,v64,v65) local v66=v63[(2 -1) + 0 ];local v67=v63[1502 -(1408 + 92) ];local v68=v63[1089 -(461 + (2176 -(1126 + 425))) ];return function(...) local v73=v66;local v74=v67;local v75=v68;local v76=v27;local v77=1;local v78= -(1289 -(993 + 295));local v79={};local v80={...};local v81=v12("#",...) -(406 -(118 + 287)) ;local v82={};local v83={};for v105=0 + 0 ,v81 do if (v105>=v75) then v79[v105-v75 ]=v80[v105 + (1172 -(418 + (2951 -2198))) ];else v83[v105]=v80[v105 + 1 + 0 ];end end local v84=(v81-v75) + (1122 -(118 + 1003)) + 0 ;local v85;local v86;while true do local v106=0 + 0 ;while true do if ((v106==(0 + 0)) or (4182>4845)) then v85=v73[v77];v86=v85[530 -(406 + 123) ];v106=1770 -(1749 + 20) ;end if (v106==(1 + 0)) then if ((2322<=3546) and (v86<=(1329 -(1249 + 73)))) then if (v86<=(2 + 1)) then if (v86<=(1146 -((1363 -897) + 679))) then if (v86>(0 -0)) then v83[v85[5 -3 ]]=v85[1903 -(106 + 1794) ];else v83[v85[1 + 1 ]]={};end elseif (v86==(1 + 1)) then v83[v85[(382 -(142 + 235)) -3 ]]=v65[v85[7 -4 ]];else local v143=114 -(4 + 110) ;local v144;while true do if ((0==v143) or (2082==4773)) then v144=v85[2];v83[v144]=v83[v144](v13(v83,v144 + (585 -(57 + 527)) ,v78));break;end end end elseif (v86<=(1432 -(41 + 1386))) then if (v86==((485 -378) -(17 + 86))) then v83[v85[1 + 1 + 0 ]]();else local v145=0;local v146;local v147;while true do if ((3244>1055) and (v145==(0 -0))) then v146=v85[979 -(553 + 424) ];v147=v83[v85[8 -5 ]];v145=167 -(122 + 44) ;end if (v145==((1 -0) -0)) then v83[v146 + 1 ]=v147;v83[v146]=v147[v85[12 -8 ]];break;end end end elseif ((v86>(5 + 1)) or (3313<=1778)) then local v148=v85[1 + 1 + 0 ];local v149,v150=v76(v83[v148](v13(v83,v148 + (1 -0) ,v85[68 -(30 + 35) ])));v78=(v150 + v148) -(1 + 0) ;local v151=(1247 + 10) -(608 + 435 + 214) ;for v169=v148,v78 do v151=v151 + 1 ;v83[v169]=v149[v151];end else v83[v85[7 -5 ]]={};end elseif (v86<=(1223 -(323 + 889))) then if ((v86<=(23 -(6 + 8))) or (1421>=2104)) then if (v86>(588 -(361 + 219))) then v83[v85[322 -(53 + 267) ]]();else local v153=v85[1 + 1 ];local v154,v155=v76(v83[v153](v13(v83,v153 + (414 -(15 + 398)) ,v85[3])));v78=(v155 + v153) -1 ;local v156=982 -(18 + 964) ;for v172=v153,v78 do local v173=0 -0 ;while true do if (v173==(0 + 0)) then v156=v156 + 1 + 0 + 0 ;v83[v172]=v154[v156];break;end end end end elseif (v86==(860 -(20 + 830))) then do return;end else local v157=v85[2 + 0 ];v83[v157]=v83[v157](v13(v83,v157 + (127 -(116 + 10)) ,v78));end elseif (v86<=13) then if ((1812<=3249) and (v86==(1 + 11))) then do return;end else local v159=v85[740 -(542 + 196) ];local v160=v83[v85[6 -3 ]];v83[v159 + 1 ]=v160;v83[v159]=v160[v85[2 + 2 ]];end elseif (v86==(8 + 6)) then v83[v85[1 + 1 ]]=v85[3];else v83[v85[2]]=v65[v85[7 -4 ]];end v77=v77 + 1 ;break;end end end end;end return v29(v28(),{},v17)(...);end return v15("LOL!043Q00030A3Q006C6F6164737472696E6703043Q0067616D6503073Q00482Q747047657403683Q00682Q7470733A2Q2F7261772E67697468756275736572636F6E74656E742E636F6D2F4C415A345255532Q30312F48756E74696E67546F6765746865724B616954616E2F726566732F68656164732F6D61696E2F48756E74696E67546F6765746865724B616954616E00099Q003Q001202000100013Q001202000200023Q002005000200020003001201000400044Q0008000200044Q000B00013Q00022Q00040001000100012Q000A3Q00017Q00",v9(),...);
+--[[
+    Street Hub - Hunting Together (Kai Tan / Auto Max Level Bot)
+    Created for paneer by spinach
+    Supported: PC, Delta Mobile, Fluxus, Hydrogen, Codex, Arceus X, Solara (Level 3)
+    Automated Level Progression: Lv. 1 -> Lv. 99 (Max)
+    Features: 100% Reliable Auto Dodge System (Boss Danger Circle Evade, Invincible Dash Roll,
+              Reactive Elevation Whiff, Zero-Delay Damage Safeguard),
+              Auto Quest System (Auto Accept Main/Daily/Repeat Quests, Auto Complete & Claim,
+              Quest Monster Priority Hunter),
+              Auto Zone Progression with Boss-Gate Lock Verification & Boss Priority Kill,
+              Safe Hover Farm, Auto Skills, Smart Loot Vacuum, Auto Equip Best Gear,
+              Relic Box Collector, Auto Sell Junk, Anti-AFK, Auto Respawn & Return,
+              Low CPU Mode, Discord Webhook Alerts, Hourly Online Rewards Auto-Claimer,
+              Adventure Book Auto-Claimer, Floating Mobile Toggle Button
+]]
+
+local Config = {
+    AutoFarm = true,
+    KeepAutoAttack = true, -- บังคับเปิดโจมตีอัตโนมัติ (ปุ่ม F / Mobile Auto) ค้างไว้ตลอดเวลา
+    AutoDodge = true, -- ระบบหลบหลีกการโจมตีอัตโนมัติ 100% (i-frame roll, boss danger circle evade, melee whiff)
+    DodgeBossSkills = true, -- หลบสกิลบอสและวงแดง AoE (หลบนอกวงอันตราย + เข้าวงเขียวปลอดภัย)
+    DodgeMobAttacks = true, -- หลบการโจมตีระยะประชิดของมอนสเตอร์ (Reactive Elevation + Roll)
+    DodgeLowHp = true, -- หลบฉุกเฉินเมื่อเลือดต่ำ
+    DodgeHpThreshold = 20, -- เปอร์เซ็นต์เลือดที่จะเปิดโหมดหลบฉุกเฉิน (ปรับเป็น 20 ตามคำสั่ง paneer)
+    CloseIntrusiveWindows = true, -- ออโต้ปิดหน้าต่างขวางจอ (Power & Skills / HuntCharPage / StatScreen) ป้องกันเด้งเปิดเอง
+    AutoQuest = true, -- ออโต้รับเควสและส่งเควสอัตโนมัติ (Main Quests, Daily Quests, Repeat Quests)
+    AutoLikeAndGroup = true, -- ออโต้ Like + Follow the Group + รับสัตว์เลี้ยงฟรีและรางวัล Level Race (RonB Games)
+    AutoBuyPotions = true, -- ออโต้ซื้อยา HP และ SP จากร้านค้า Merchant ในเมืองเมื่อยาใกล้หมด
+    MinHpPotions = 5, -- ซื้อยา HP เพิ่มทันทีเมื่อเหลือน้อยกว่า 5 ขวด
+    TargetHpPotions = 100, -- จำนวนยา HP สูงสุดที่จะซื้อตุนไว้
+    MinSpPotions = 5, -- ซื้อยา SP เพิ่มทันทีเมื่อเหลือน้อยกว่า 5 ขวด
+    TargetSpPotions = 100, -- จำนวนยา SP สูงสุดที่จะซื้อตุนไว้
+    AutoSpeedPotion = true, -- ออโต้กดใช้ยาตีเร็ว (Concentration / Awakening / Berserk) ตามเงื่อนไขและเลือกอันที่ดีที่สุด
+    AutoBuySpeedPotion = true, -- ออโต้ซื้อยาตีเร็วตุนไว้เมื่อหมด
+    MinSpeedPotions = 1, -- ซื้อยาตีเร็วเพิ่มทันทีเมื่อเหลือน้อยกว่า 1 ขวด
+    TargetSpeedPotions = 3, -- จำนวนยาตีเร็วสูงสุดที่จะซื้อตุนไว้
+    RetreatOnHighDeaths = true, -- ย้อนกลับไปโซนก่อนหน้า 1 โซนเมื่อตายเกิน 10 ครั้งเพื่อฟาร์มเงินซื้อยา
+    MaxDeathsBeforeRetreat = 10, -- จำนวนครั้งที่ตายก่อนย้อนกลับโซน (ตายเกิน 10 ครั้ง)
+    PotionsTargetToResume = 50, -- จำนวนยา HP ที่ต้องมีตุนไว้ถึงจะกลับไปดันโซนเดิม
+    TargetLevel = 99,
+    StandBehind = true, -- ยืนหลังมอนสเตอร์แทนการลอยบนหัว
+    StandBehindDist = 3.8, -- ระยะห่างยืนด้านหลังมอนสเตอร์ (studs)
+    SafeHeight = 8.5,
+    AutoSkills = true,
+    AutoLoot = true,
+    AutoEquipBest = true,
+    AutoInsertCards = true, -- ออโต้ใส่การ์ดมอนสเตอร์ลงในช่องอุปกรณ์ทันทีเมื่อได้รับการ์ด
+    AutoHalloweenKnock = false, -- ปิดไว้เป็นค่าเริ่มต้นเพื่อป้องกันวาปข้ามกำแพงแมพหลุดออกจากเกม
+    MinHalloweenCandy = 100, -- จำนวนลูกอมขั้นต่ำที่จะไปเคาะบ้านแม่มด (100 ลูกอมต่อครั้ง)
+    AutoSellJunk = true,
+    AutoSellGear = true, -- ออโต้ขายอุปกรณ์เมื่อกระเป๋าใกล้เต็ม (วาร์ปไปขายที่ Merchant ใน Town)
+    SellGearMaxRarity = 4, -- ระดับความหายากอุปกรณ์ที่จะขาย (0=Common, 1=Uncommon, 2=Rare, 3=Epic, 4=Legendary) ขายเป็นเงินทั้งหมดเพราะระบบสวมใส่อัตโนมัติใส่ของที่ดีที่สุดไว้แล้ว
+    BagFullThreshold = 0.80, -- เปอร์เซ็นต์ความจุกระเป๋าที่จะเริ่มขายอุปกรณ์ (80%)
+    MinFreeBagSlots = 15, -- ช่องว่างกระเป๋าขั้นต่ำ (เหลือน้อยกว่า 15 ช่องจะไปขาย)
+    AutoOpenChests = true,
+    AutoClaimRewards = true, -- ออโต้รับของขวัญประจำวัน / ออนไลน์รายชั่วโมง / เช็คอิน
+    AutoClaimAdventureBook = true, -- ออโต้รับรางวัลสมุดผจญภัย (Adventure Book / Achievements)
+    AutoRespawn = true,
+    AntiAfk = true,
+    LowCPU = false, -- ปิดโหมดจอดำเป็นค่าเริ่มต้นเพื่อให้เห็นตัวละครฟาร์มและหน้าต่างบอทชัดเจน (สามารถกดเปิดได้ที่ปุ่ม HUD)
+    MobileToggleButton = true, -- แสดงปุ่มลอยสำหรับเปิด/ปิด GUI บนมือถือ (Delta, Fluxus, Hydrogen, Codex, Arceus X)
+    WebhookEnabled = false,
+    WebhookURL = ""
+}
+
+-- ==================== CROSS-PLATFORM COMPATIBILITY & SERVICES ==================== --
+if not game:IsLoaded() then
+    pcall(function() game.Loaded:Wait() end)
+end
+
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local HttpService = game:GetService("HttpService")
+local CollectionService = game:GetService("CollectionService")
+local UserInputService = game:GetService("UserInputService")
+
+local CoreGui = nil
+pcall(function() CoreGui = game:GetService("CoreGui") end)
+
+local VirtualUser = nil
+pcall(function() VirtualUser = game:GetService("VirtualUser") end)
+
+local VirtualInputManager = nil
+pcall(function() VirtualInputManager = game:GetService("VirtualInputManager") end)
+
+local GuiService = nil
+pcall(function() GuiService = game:GetService("GuiService") end)
+
+local LocalPlayer = Players.LocalPlayer
+if not LocalPlayer then
+    repeat
+        task.wait(0.1)
+        LocalPlayer = Players.LocalPlayer
+    until LocalPlayer
+end
+
+local Remotes = ReplicatedStorage:WaitForChild("Remotes", 25)
+if not Remotes then
+    repeat
+        task.wait(0.2)
+        Remotes = ReplicatedStorage:FindFirstChild("Remotes")
+    until Remotes
+end
+
+-- Early Remote Catchers (Prevents Roblox 'event dropped / did you forget OnClientEvent' warning in Dev Console)
+pcall(function()
+    local animU = Remotes:FindFirstChild("AttackAnimU")
+    if animU and animU:IsA("RemoteEvent") then
+        animU.OnClientEvent:Connect(function() end)
+    end
+end)
+
+-- Platform & Executor Detection
+local IsMobilePlatform = (UserInputService.TouchEnabled and not UserInputService.KeyboardEnabled and not UserInputService.MouseEnabled)
+    or (pcall(function() return UserInputService:GetPlatform() end) and (UserInputService:GetPlatform() == Enum.Platform.Android or UserInputService:GetPlatform() == Enum.Platform.IOS))
+
+local function GetExecutorName()
+    local name = "Standard Executor"
+    pcall(function()
+        if identifyexecutor and type(identifyexecutor) == "function" then
+            name = tostring(identifyexecutor())
+        elseif getexecutorname and type(getexecutorname) == "function" then
+            name = tostring(getexecutorname())
+        elseif delta and type(delta) == "table" then
+            name = "Delta Mobile"
+        elseif fluxus and type(fluxus) == "table" then
+            name = "Fluxus"
+        elseif syn and type(syn) == "table" then
+            name = "Synapse"
+        elseif KRNL_LOADED then
+            name = "Krnl"
+        elseif is_sirhurt_closure then
+            name = "SirHurt"
+        elseif IsMobilePlatform then
+            name = "Mobile Executor"
+        else
+            name = "PC Executor"
+        end
+    end)
+    return name
+end
+local CurrentExecutor = GetExecutorName()
+
+-- Safe UI Parent Resolver (Supports gethui, PlayerGui, CoreGui across Solara, Delta, Fluxus, Codex, Arceus X)
+local function GetSafeGuiParent()
+    local target = nil
+    if gethui and type(gethui) == "function" then
+        pcall(function()
+            local h = gethui()
+            if h and typeof(h) == "Instance" then
+                target = h
+            end
+        end)
+    end
+    if not target then
+        pcall(function()
+            target = LocalPlayer:WaitForChild("PlayerGui", 5)
+        end)
+    end
+    if not target and CoreGui then
+        pcall(function()
+            local _ = CoreGui.Name
+            target = CoreGui
+        end)
+    end
+    return target or LocalPlayer:FindFirstChild("PlayerGui")
+end
+
+-- Safe GUI Destroyer (Never throws Level 3 identity / CoreGui access error on Solara)
+local function SafeDestroyGui(guiName)
+    local containers = {}
+    pcall(function()
+        if gethui and type(gethui) == "function" then
+            local h = gethui()
+            if h then table.insert(containers, h) end
+        end
+    end)
+    if CoreGui then
+        pcall(function()
+            local _ = CoreGui.Name
+            table.insert(containers, CoreGui)
+            local rGui = CoreGui:FindFirstChild("RobloxGui")
+            if rGui then table.insert(containers, rGui) end
+        end)
+    end
+    pcall(function()
+        local pGui = LocalPlayer:FindFirstChild("PlayerGui")
+        if pGui then table.insert(containers, pGui) end
+    end)
+    for _, cont in ipairs(containers) do
+        pcall(function()
+            for _, child in ipairs(cont:GetChildren()) do
+                if child.Name == guiName then
+                    child:Destroy()
+                end
+            end
+        end)
+    end
+end
+
+-- Universal Button Click Emulator (Firesignal, getconnections, VirtualInputManager Touch/Mouse, VirtualUser)
+local function UniversalClickButton(btn)
+    if not btn or not btn:IsA("GuiButton") then return false end
+    local clicked = false
+
+    -- 1. firesignal
+    if firesignal and type(firesignal) == "function" then
+        pcall(function()
+            firesignal(btn.MouseButton1Click)
+            firesignal(btn.Activated)
+            clicked = true
+        end)
+    end
+
+    -- 2. getconnections
+    if getconnections and type(getconnections) == "function" then
+        pcall(function()
+            for _, c in ipairs(getconnections(btn.MouseButton1Click)) do
+                if c.Fire then c:Fire() elseif c.fire then c:fire() end
+                clicked = true
+            end
+            for _, c in ipairs(getconnections(btn.Activated)) do
+                if c.Fire then c:Fire() elseif c.fire then c:fire() end
+                clicked = true
+            end
+        end)
+    end
+
+    -- 3. VirtualInputManager (Desktop mouse click / Mobile touch event)
+    if VirtualInputManager then
+        pcall(function()
+            local pos = btn.AbsolutePosition + (btn.AbsoluteSize / 2)
+            if IsMobilePlatform then
+                VirtualInputManager:SendTouchEvent(1, 0, pos.X, pos.Y)
+                task.wait(0.02)
+                VirtualInputManager:SendTouchEvent(1, 2, pos.X, pos.Y)
+            else
+                VirtualInputManager:SendMouseButtonEvent(pos.X, pos.Y, 0, true, game, 1)
+                task.wait(0.02)
+                VirtualInputManager:SendMouseButtonEvent(pos.X, pos.Y, 0, false, game, 1)
+            end
+            clicked = true
+        end)
+    end
+
+    -- 4. VirtualUser fallback
+    if not clicked and VirtualUser then
+        pcall(function()
+            VirtualUser:CaptureController()
+            local pos = btn.AbsolutePosition + (btn.AbsoluteSize / 2)
+            VirtualUser:ClickButton1(pos)
+            clicked = true
+        end)
+    end
+
+    return clicked
+end
+
+-- Universal HTTP Request (Solara, Delta, Fluxus, Hydrogen, Codex, Arceus X, Synapse)
+local function GetUniversalRequest()
+    if type(request) == "function" then return request end
+    if type(http_request) == "function" then return http_request end
+    if syn and type(syn) == "table" and type(syn.request) == "function" then return syn.request end
+    if fluxus and type(fluxus) == "table" and type(fluxus.request) == "function" then return fluxus.request end
+    if http and type(http) == "table" and type(http.request) == "function" then return http.request end
+    return nil
+end
+
+-- ==================== SCRIPT LIFECYCLE & THREAD PURGE ==================== --
+local ScriptInstanceId = tostring(os.clock()) .. "_" .. tostring(math.random(10000, 99999))
+if _G.KaiTan_Cleanup then
+    pcall(_G.KaiTan_Cleanup)
+end
+_G.KaiTan_ActiveInstance = ScriptInstanceId
+
+local ScriptConnections = {}
+local function SafeConnect(signal, fn)
+    local conn
+    conn = signal:Connect(function(...)
+        if _G.KaiTan_ActiveInstance ~= ScriptInstanceId then
+            if conn then pcall(function() conn:Disconnect() end) end
+            return
+        end
+        return fn(...)
+    end)
+    table.insert(ScriptConnections, conn)
+    return conn
+end
+
+_G.KaiTan_Cleanup = function()
+    for _, conn in ipairs(ScriptConnections) do
+        pcall(function() conn:Disconnect() end)
+    end
+    table.clear(ScriptConnections)
+    pcall(function()
+        if setfpscap and type(setfpscap) == "function" then setfpscap(60) end
+        if HoverBG then HoverBG:Destroy() end
+        if HoverBV then HoverBV:Destroy() end
+        SafeDestroyGui("KaiTan_HUD")
+        SafeDestroyGui("KaiTan_MobileToggle")
+    end)
+end
+
+-- ==================== ANTI-BAN PROTECTION ==================== --
+pcall(function()
+    if type(hookmetamethod) == "function" and type(checkcaller) == "function" and type(newcclosure) == "function" and type(getnamecallmethod) == "function" then
+        local oldNamecall
+        oldNamecall = hookmetamethod(game, "__namecall", newcclosure(function(self, ...)
+            local method = getnamecallmethod()
+            if not checkcaller() and (method == "Kick" or method == "kick") and self == LocalPlayer then
+                warn("[Anti-Ban] Blocked kick attempt!")
+                return nil
+            end
+            return oldNamecall(self, ...)
+        end))
+    end
+end)
+
+-- ==================== ANTI-AFK (UNIVERSAL PC & MOBILE) ==================== --
+pcall(function()
+    if getconnections and type(getconnections) == "function" then
+        for _, conn in ipairs(getconnections(LocalPlayer.Idled)) do
+            if conn.Disable then
+                conn:Disable()
+            elseif conn.Disconnect then
+                conn:Disconnect()
+            end
+        end
+    end
+end)
+
+SafeConnect(LocalPlayer.Idled, function()
+    if Config.AntiAfk then
+        pcall(function()
+            if VirtualUser then
+                VirtualUser:CaptureController()
+                VirtualUser:ClickButton2(Vector2.new(0, 0))
+            end
+            if VirtualInputManager then
+                VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.F15, false, game)
+                task.wait(0.04)
+                VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.F15, false, game)
+            end
+        end)
+    end
+end)
+
+-- ==================== LOW CPU / BLACK SCREEN SYSTEM ==================== --
+local LowCPUBlackFrame = nil
+local OriginalGlobalShadows = nil
+
+local function SetLowCPUMode(enabled)
+    Config.LowCPU = enabled
+    pcall(function()
+        if enabled then
+            if setfpscap and type(setfpscap) == "function" then
+                setfpscap(15)
+            end
+            if LowCPUBlackFrame then
+                LowCPUBlackFrame.Visible = true
+            end
+            pcall(function()
+                local lighting = game:GetService("Lighting")
+                if OriginalGlobalShadows == nil then
+                    OriginalGlobalShadows = lighting.GlobalShadows
+                end
+                lighting.GlobalShadows = false
+            end)
+            pcall(function()
+                if settings and settings().Rendering then
+                    settings().Rendering.QualityLevel = Enum.QualityLevel.Level01
+                end
+            end)
+        else
+            if setfpscap and type(setfpscap) == "function" then
+                setfpscap(60)
+            end
+            if LowCPUBlackFrame then
+                LowCPUBlackFrame.Visible = false
+            end
+            pcall(function()
+                local lighting = game:GetService("Lighting")
+                if OriginalGlobalShadows ~= nil then
+                    lighting.GlobalShadows = OriginalGlobalShadows
+                end
+            end)
+            pcall(function()
+                if settings and settings().Rendering then
+                    settings().Rendering.QualityLevel = Enum.QualityLevel.Automatic
+                end
+            end)
+        end
+    end)
+end
+
+if Config.LowCPU then
+    SetLowCPUMode(true)
+end
+
+-- ==================== ALWAYS-ON FPS BOOSTER & ANTI-LAG & FAST MODE ==================== --
+local MobSizeCache = setmetatable({}, { __mode = "k" })
+local function GetCachedMobExtents(mob)
+    local s = MobSizeCache[mob]
+    if not s then
+        s = mob:GetExtentsSize()
+        MobSizeCache[mob] = s
+    end
+    return s
+end
+
+local CharPartsCache = {}
+local function RefreshCharCollisionCache(char)
+    table.clear(CharPartsCache)
+    if not char then return end
+    for _, p in ipairs(char:GetDescendants()) do
+        if p:IsA("BasePart") then
+            table.insert(CharPartsCache, p)
+        end
+    end
+end
+
+if LocalPlayer.Character then
+    RefreshCharCollisionCache(LocalPlayer.Character)
+end
+SafeConnect(LocalPlayer.CharacterAdded, RefreshCharCollisionCache)
+
+local function OptimizePartForFps(p)
+    if p:IsA("BasePart") then
+        p.Material = Enum.Material.SmoothPlastic
+        p.Reflectance = 0
+        p.CastShadow = false
+    elseif p:IsA("Decal") or p:IsA("Texture") then
+        p.Transparency = 1
+    elseif p:IsA("ParticleEmitter") or p:IsA("Trail") or p:IsA("Smoke") or p:IsA("Fire") or p:IsA("Sparkles") then
+        p.Enabled = false
+    elseif p:IsA("Explosion") then
+        p.Visible = false
+    end
+end
+
+pcall(function()
+    -- 1. Activate Game Native Fast Mode & Anti-Lag Settings
+    local fastSettings = {
+        FastMode = true,
+        HideOthersDamage = true,
+        HideOthersFx = true,
+        HideOutfit = true,
+        ScreenShake = false,
+        Shadows = false,
+        DamageScale = 50,
+        QuietSfx = true
+    }
+    pcall(function()
+        Remotes.SetSettings:FireServer(fastSettings)
+    end)
+    LocalPlayer:SetAttribute("OptFastMode", true)
+    LocalPlayer:SetAttribute("OptHideOthersDamage", true)
+    LocalPlayer:SetAttribute("OptHideOthersFx", true)
+    LocalPlayer:SetAttribute("OptHideOutfit", true)
+    LocalPlayer:SetAttribute("OptScreenShake", false)
+    LocalPlayer:SetAttribute("OptShadows", false)
+
+    -- 2. Strip Map Heavy Decoration Folders to eliminate lag spikes
+    local decorNames = {
+        Flowers = true, Tufts = true, Bushes = true, Glows = true, Crystals = true,
+        EdgeDetail = true, NatureDecor = true, Fantasy = true, VillageLife = true, CliffDecor = true
+    }
+    local function CleanMapDecor(parent)
+        for _, child in ipairs(parent:GetChildren()) do
+            if decorNames[child.Name] then
+                pcall(function() child:Destroy() end)
+            else
+                CleanMapDecor(child)
+            end
+        end
+    end
+    local map = workspace:FindFirstChild("Map")
+    if map then CleanMapDecor(map) end
+
+    -- 3. Lighting & Graphics Optimizations
+    local lighting = game:GetService("Lighting")
+    lighting.GlobalShadows = false
+    lighting.FogEnd = 9e9
+    lighting.Brightness = 1
+
+    for _, v in ipairs(lighting:GetChildren()) do
+        if v:IsA("PostEffect") or v:IsA("BloomEffect") or v:IsA("BlurEffect") or v:IsA("DepthOfFieldEffect") or v:IsA("SunRaysEffect") or v:IsA("ColorCorrectionEffect") then
+            v.Enabled = false
+        end
+    end
+
+    local terrain = workspace:FindFirstChildOfClass("Terrain")
+    if terrain then
+        terrain.WaterWaveSize = 0
+        terrain.WaterWaveSpeed = 0
+        terrain.WaterReflectance = 0
+        terrain.WaterTransparency = 0
+        pcall(function() terrain.Decoration = false end)
+    end
+
+    for _, obj in ipairs(workspace:GetDescendants()) do
+        OptimizePartForFps(obj)
+    end
+
+    SafeConnect(workspace.DescendantAdded, function(child)
+        task.defer(function()
+            if child and child.Parent then
+                if decorNames[child.Name] then
+                    pcall(function() child:Destroy() end)
+                else
+                    OptimizePartForFps(child)
+                end
+            end
+        end)
+    end)
+end)
+
+-- ==================== ZONE DEFINITIONS & PROGRESSION ==================== --
+local LevelProgression = {
+    { minLv = 1,  maxLv = 8,  zoneId = "Field01", name = "Field 01 · Rabbit Field (Lv.1-8)", reqGate = nil },
+    { minLv = 9,  maxLv = 16, zoneId = "Field02", name = "Field 02 · Boar Forest (Lv.9-16)", reqGate = nil },
+    { minLv = 17, maxLv = 24, zoneId = "Field03", name = "Field 03 · Bear Forest (Lv.17-25)", reqGate = nil },
+    { minLv = 25, maxLv = 25, zoneId = "Boss01",  name = "Boss Room 01 · Gorilla King (Lv.25)", reqGate = nil, isBossRoom = true, bossGateId = "Boss01" },
+    { minLv = 25, maxLv = 33, zoneId = "Field04", name = "Field 04 · Hyena Den (Lv.25-33)", reqGate = "Boss01" },
+    { minLv = 34, maxLv = 41, zoneId = "Field05", name = "Field 05 · Rhino Thicket (Lv.34-41)", reqGate = "Boss01" },
+    { minLv = 42, maxLv = 49, zoneId = "Field06", name = "Field 06 · Tiger Thicket (Lv.42-50)", reqGate = "Boss01" },
+    { minLv = 50, maxLv = 50, zoneId = "Boss02",  name = "Boss Room 02 · Whitefang Sabertooth (Lv.50)", reqGate = nil, isBossRoom = true, bossGateId = "Boss02" },
+    { minLv = 50, maxLv = 58, zoneId = "Field07", name = "Field 07 · Scorpion Dunes (Lv.50-58)", reqGate = "Boss02" },
+    { minLv = 59, maxLv = 66, zoneId = "Field08", name = "Field 08 · Ram Cliffs (Lv.59-66)", reqGate = "Boss02" },
+    { minLv = 67, maxLv = 74, zoneId = "Field09", name = "Field 09 · Stone Golem Valley (Lv.67-75)", reqGate = "Boss02" },
+    { minLv = 75, maxLv = 75, zoneId = "Boss03",  name = "Boss Room 03 · Obsidian Pharaoh (Lv.75)", reqGate = nil, isBossRoom = true, bossGateId = "Boss03" },
+    { minLv = 75, maxLv = 83, zoneId = "Field10", name = "Field 10 · Polar Bear Plain (Lv.75-83)", reqGate = "Boss03" },
+    { minLv = 84, maxLv = 91, zoneId = "Field11", name = "Field 11 · Snow Wolf Forest (Lv.84-91)", reqGate = "Boss03" },
+    { minLv = 92, maxLv = 98, zoneId = "Field12", name = "Field 12 · Ice Golem Peak (Lv.92-98)", reqGate = "Boss03" },
+    { minLv = 99, maxLv = 99, zoneId = "Boss04",  name = "Boss Room 04 · Tempest Dragon King (Lv.99)", reqGate = nil, isBossRoom = true, bossGateId = "Boss04" },
+    { minLv = 99, maxLv = 99, zoneId = "Field13", name = "Field 13 · Lava Turtle Hill (Lv.99)", reqGate = "Boss04" },
+    { minLv = 99, maxLv = 99, zoneId = "Field14", name = "Field 14 · Fire Bat Cliffs (Lv.99)", reqGate = "Boss04" },
+    { minLv = 99, maxLv = 999,zoneId = "Field15", name = "Field 15 · Hellhound Ash Fields (Lv.99 Max)", reqGate = "Boss04" }
+}
+
+local TeleportCoords = {
+    ["Town"] = Vector3.new(22.3, 4, 71.5),
+    ["Field01"] = Vector3.new(0, 10, -200),
+    ["Field02"] = Vector3.new(0, 34, -459),
+    ["Field03"] = Vector3.new(0, 62, -715),
+    ["Boss01"]  = Vector3.new(0, 60, -906),
+    ["Field04"] = Vector3.new(0, 62, -1097),
+    ["Field05"] = Vector3.new(0, 90, -1353),
+    ["Field06"] = Vector3.new(0, 118, -1609),
+    ["Boss02"]  = Vector3.new(0, 116, -1800),
+    ["Field07"] = Vector3.new(0, 118, -1991),
+    ["Field08"] = Vector3.new(0, 146, -2247),
+    ["Field09"] = Vector3.new(0, 174, -2503),
+    ["Boss03"]  = Vector3.new(0, 172, -2694),
+    ["Field10"] = Vector3.new(0, 174, -2885),
+    ["Field11"] = Vector3.new(0, 202, -3141),
+    ["Field12"] = Vector3.new(0, 230, -3397),
+    ["Boss04"]  = Vector3.new(0, 228, -3588),
+    ["Field13"] = Vector3.new(0, 242, -3779),
+    ["Field14"] = Vector3.new(0, 270, -4035),
+    ["Field15"] = Vector3.new(0, 298, -4291),
+    ["Boss05"]  = Vector3.new(0, 240, -4400)
+}
+
+local ZoneRanges = {
+    {id = "Town", minZ = -64.25, maxZ = 500, minX = -65, maxX = 65},
+    {id = "Field01", minZ = -329.5, maxZ = -64.25, minX = -65, maxX = 65},
+    {id = "Field02", minZ = -587, maxZ = -329.5, minX = -65, maxX = 65},
+    {id = "Field03", minZ = -820, maxZ = -587, minX = -65, maxX = 65},
+    {id = "Boss01", minZ = -980, maxZ = -820, minX = -65, maxX = 65},
+    {id = "Field04", minZ = -1225, maxZ = -980, minX = -65, maxX = 65},
+    {id = "Field05", minZ = -1481, maxZ = -1225, minX = -65, maxX = 65},
+    {id = "Field06", minZ = -1715, maxZ = -1481, minX = -65, maxX = 65},
+    {id = "Boss02", minZ = -1880, maxZ = -1715, minX = -65, maxX = 65},
+    {id = "Field07", minZ = -2119, maxZ = -1880, minX = -65, maxX = 65},
+    {id = "Field08", minZ = -2375, maxZ = -2119, minX = -65, maxX = 65},
+    {id = "Field09", minZ = -2600, maxZ = -2375, minX = -65, maxX = 65},
+    {id = "Boss03", minZ = -2770, maxZ = -2600, minX = -65, maxX = 65},
+    {id = "Field10", minZ = -3013, maxZ = -2770, minX = -65, maxX = 65},
+    {id = "Field11", minZ = -3269, maxZ = -3013, minX = -65, maxX = 65},
+    {id = "Field12", minZ = -3500, maxZ = -3269, minX = -65, maxX = 65},
+    {id = "Boss04", minZ = -3670, maxZ = -3500, minX = -65, maxX = 65},
+    {id = "Field13", minZ = -3951, maxZ = -3670, minX = -65, maxX = 65},
+    {id = "Field14", minZ = -4207, maxZ = -3951, minX = -65, maxX = 65},
+    {id = "Field15", minZ = -4455, maxZ = -4207, minX = -65, maxX = 65},
+    {id = "Boss05", minZ = -4650, maxZ = -4455, minX = -65, maxX = 65}
+}
+
+-- ==================== STATE VARIABLES ==================== --
+local CurrentZoneId = nil
+local CurrentZoneName = nil
+local CurrentTarget = nil
+local IsOpeningChest = false
+local IsProcessingEventNpc = false
+local InitialEventSetupDone = false
+local IsBuyingPotions = false
+local LastPotionBuyTime = 0
+local IsSellingGear = false
+local LastGearSellTime = 0
+local IsKnockingHalloween = false
+local LastHalloweenKnockTime = 0
+local LastSpeedPotionUseTime = 0
+local IsRespawning = false
+local DeathCountInZone = 0
+local LastDeathTimestamp = 0
+local IsRetreatingForPotions = false
+local RetreatedBaseZoneId = nil
+local HoverBV, HoverBG
+
+-- 100% Auto Dodge State
+local LastDashTime = 0
+local TemporaryDodgeHeight = 0
+local DodgeActiveUntil = nil
+local DodgeTargetPos = nil
+local ActiveBossSkillThread = nil
+local LastMobDodge = 0
+
+-- Auto Quest Tracker State
+local CurrentQuestSummary = "None"
+
+-- ==================== UTILITY FUNCTIONS ==================== --
+local function GetChar()
+    local char = LocalPlayer.Character
+    if not char then return nil, nil end
+    local root = char:FindFirstChild("HumanoidRootPart")
+    local hum = char:FindFirstChildOfClass("Humanoid")
+    return root, hum, char
+end
+
+local function GetPlayerLevel()
+    local attr = LocalPlayer:GetAttribute("Level")
+    if type(attr) == "number" then return attr end
+    local data = LocalPlayer:FindFirstChild("Data")
+    if data and data:FindFirstChild("Level") then
+        return tonumber(data.Level.Value) or 1
+    end
+    return 1
+end
+
+local function GetUnlockedGates()
+    local raw = LocalPlayer:GetAttribute("BossGatesJson")
+    if type(raw) == "string" then
+        local ok, decoded = pcall(function() return HttpService:JSONDecode(raw) end)
+        if ok and type(decoded) == "table" then
+            return decoded
+        end
+    end
+    return {}
+end
+
+local function GetTargetZoneForLevel(lvl)
+    local gates = GetUnlockedGates()
+
+    -- 1. Check if intermediate boss rooms must be cleared first before entering next zones
+    if lvl >= 25 and gates["Boss01"] ~= true then
+        return "Boss01", "Boss Room 01 · Gorilla King (Lv.25 [UNLOCK REQUIRED])"
+    end
+    if lvl >= 50 and gates["Boss02"] ~= true then
+        return "Boss02", "Boss Room 02 · Whitefang Sabertooth (Lv.50 [UNLOCK REQUIRED])"
+    end
+    if lvl >= 75 and gates["Boss03"] ~= true then
+        return "Boss03", "Boss Room 03 · Obsidian Pharaoh (Lv.75 [UNLOCK REQUIRED])"
+    end
+    if lvl >= 99 and gates["Boss04"] ~= true then
+        return "Boss04", "Boss Room 04 · Tempest Dragon King (Lv.99 [UNLOCK REQUIRED])"
+    end
+
+    -- 2. Find target zone: Pick the highest level bracket that is fully unlocked in BossGatesJson
+    -- CRITICAL: Skip any Boss Room where the boss gate is already unlocked! Boss rooms are never for regular grinding.
+    local chosen = LevelProgression[1]
+    for _, info in ipairs(LevelProgression) do
+        -- If this is a boss room and it has already been unlocked/defeated, do NOT stay in it!
+        if info.isBossRoom and gates[info.bossGateId] == true then
+            continue
+        end
+
+        if lvl >= info.minLv then
+            local isUnlocked = true
+            if info.reqGate and gates[info.reqGate] ~= true then
+                isUnlocked = false
+            end
+            if isUnlocked then
+                chosen = info
+            end
+        end
+    end
+
+    return chosen.zoneId, chosen.name
+end
+
+local function GetBestHpPotionForLevel(lvl)
+    if lvl <= 25 then
+        return "red_potion", 20
+    elseif lvl <= 50 then
+        return "red_potion_m", 100
+    else
+        return "white_potion", 600
+    end
+end
+
+local function GetPreviousFarmZone(targetZoneId)
+    local curIdx = nil
+    for idx, info in ipairs(LevelProgression) do
+        if info.zoneId == targetZoneId then
+            curIdx = idx
+            break
+        end
+    end
+    if not curIdx then
+        return targetZoneId, targetZoneId
+    end
+
+    -- Look backwards for the previous non-boss field
+    for idx = curIdx - 1, 1, -1 do
+        local info = LevelProgression[idx]
+        if not info.isBossRoom then
+            return info.zoneId, info.name
+        end
+    end
+
+    -- Fallback to first field
+    return LevelProgression[1].zoneId, LevelProgression[1].name
+end
+
+local function GetEffectiveTargetZone(lvl)
+    local baseZoneId, baseName = GetTargetZoneForLevel(lvl)
+    if Config.RetreatOnHighDeaths and IsRetreatingForPotions then
+        local prevZoneId, prevName = GetPreviousFarmZone(baseZoneId)
+        return prevZoneId, prevName .. " [POTION FARM]"
+    end
+    return baseZoneId, baseName
+end
+
+local function GetZoneAtZ(z)
+    for _, zr in ipairs(ZoneRanges) do
+        if z >= zr.minZ and z < zr.maxZ then
+            return zr.id, zr
+        end
+    end
+    return nil, nil
+end
+
+local function InitCurrentZone()
+    local root = GetChar()
+    if root then
+        local zId = GetZoneAtZ(root.Position.Z)
+        if zId then
+            CurrentZoneId = zId
+            for _, info in ipairs(LevelProgression) do
+                if info.zoneId == zId then
+                    CurrentZoneName = info.name
+                    break
+                end
+            end
+            if not CurrentZoneName then CurrentZoneName = zId end
+        end
+    end
+end
+pcall(InitCurrentZone)
+
+local function EnsureHover(root)
+    if not root then return end
+    for _, c in ipairs(root:GetChildren()) do
+        if (c.Name == "KaiTan_HoverBV" and c ~= HoverBV) or (c.Name == "KaiTan_HoverBG" and c ~= HoverBG) then
+            pcall(function() c:Destroy() end)
+        end
+    end
+    if not HoverBV or HoverBV.Parent ~= root then
+        if HoverBV then HoverBV:Destroy() end
+        HoverBV = Instance.new("BodyVelocity")
+        HoverBV.Name = "KaiTan_HoverBV"
+        HoverBV.MaxForce = Vector3.new(1e6, 1e6, 1e6)
+        HoverBV.Velocity = Vector3.zero
+        HoverBV.Parent = root
+    end
+    if not HoverBG or HoverBG.Parent ~= root then
+        if HoverBG then HoverBG:Destroy() end
+        HoverBG = Instance.new("BodyGyro")
+        HoverBG.Name = "KaiTan_HoverBG"
+        HoverBG.MaxTorque = Vector3.new(1e6, 1e6, 1e6)
+        HoverBG.P = 9000
+        HoverBG.D = 500
+        local _, curYaw, _ = root.CFrame:ToOrientation()
+        HoverBG.CFrame = CFrame.Angles(0, curYaw, 0)
+        HoverBG.Parent = root
+    end
+end
+
+local function ClearHover(root)
+    if HoverBV then HoverBV:Destroy() HoverBV = nil end
+    if HoverBG then HoverBG:Destroy() HoverBG = nil end
+    if root then
+        for _, c in ipairs(root:GetChildren()) do
+            if c.Name == "KaiTan_HoverBV" or c.Name == "KaiTan_HoverBG" then
+                pcall(function() c:Destroy() end)
+            end
+        end
+    end
+end
+
+local function TeleportTo(zoneId, displayName)
+    local root = GetChar()
+    if not root then return end
+    
+    local targetPos = TeleportCoords[zoneId]
+    local zones = workspace:FindFirstChild("Zones")
+    if zones and zones:FindFirstChild(zoneId) then
+        local zp = zones[zoneId]
+        if zp:IsA("BasePart") then
+            targetPos = zp.Position + Vector3.new(0, 5, 0)
+        elseif zp:IsA("Model") then
+            targetPos = zp:GetPivot().Position + Vector3.new(0, 5, 0)
+        end
+    end
+
+    if targetPos then
+        root.AssemblyLinearVelocity = Vector3.zero
+        root.AssemblyAngularVelocity = Vector3.zero
+        if HoverBV then HoverBV.Velocity = Vector3.zero end
+        root.CFrame = CFrame.new(targetPos)
+
+        if zoneId ~= CurrentZoneId and not IsRetreatingForPotions then
+            DeathCountInZone = 0
+        end
+
+        CurrentZoneId = zoneId
+        CurrentZoneName = displayName or zoneId
+        CurrentTarget = nil
+        pcall(function() Remotes.WarpTo:FireServer(zoneId) end)
+    end
+end
+
+local function CheckRetreatGoal()
+    if not IsRetreatingForPotions then return end
+    local itemsRaw = LocalPlayer:GetAttribute("ItemsJson")
+    local items = (type(itemsRaw) == "string" and HttpService:JSONDecode(itemsRaw)) or {}
+    local curLvl = GetPlayerLevel()
+    local targetHpPot = GetBestHpPotionForLevel(curLvl)
+    local hpCount = tonumber(items[targetHpPot]) or 0
+    local totalHp = (tonumber(items["red_potion"]) or 0) + (tonumber(items["red_potion_m"]) or 0) + (tonumber(items["white_potion"]) or 0)
+
+    local targetPotions = Config.PotionsTargetToResume or 50
+    if hpCount >= targetPotions or totalHp >= 20 then
+        IsRetreatingForPotions = false
+        DeathCountInZone = 0
+        RetreatedBaseZoneId = nil
+        print(string.format("[spinach] ✨ Potion restock goal reached! (Target: %d, Total HP Potions: %d). Resuming main progression.", hpCount, totalHp))
+        SendWebhook("✨ ฟาร์มเงินซื้อยาสำเร็จ พร้อมลุยต่อ", string.format("ฟาร์มเงินซื้อยาครบแล้ว กำลังกลับไปลุยโซนหลัก!"), 0x00FF88)
+        local targetZoneId, targetName = GetEffectiveTargetZone(curLvl)
+        TeleportTo(targetZoneId, targetName)
+    end
+end
+
+-- ==================== 100% RELIABLE AUTO DODGE CONTROLLER ==================== --
+local function PerformDash()
+    local now = os.clock()
+    if now - LastDashTime < 0.28 then return false end
+    LastDashTime = now
+    pcall(function()
+        Remotes.Dash:FireServer()
+    end)
+    return true
+end
+
+local function ClampPosToZone(pos, margin)
+    margin = margin or 16
+    local curZId = CurrentZoneId
+    local zRange = nil
+    if curZId then
+        for _, zr in ipairs(ZoneRanges) do
+            if zr.id == curZId then zRange = zr break end
+        end
+    end
+    if not zRange then
+        _, zRange = GetZoneAtZ(pos.Z)
+    end
+
+    local minX = zRange and (zRange.minX + margin) or -60
+    local maxX = zRange and (zRange.maxX - margin) or 60
+    local clampedX = math.clamp(pos.X, minX, maxX)
+    local clampedZ = pos.Z
+
+    if zRange then
+        local minZ = zRange.minZ + margin
+        local maxZ = zRange.maxZ - margin
+        if minZ > maxZ then
+            clampedZ = (zRange.minZ + zRange.maxZ) / 2
+        else
+            clampedZ = math.clamp(pos.Z, minZ, maxZ)
+        end
+    end
+    return Vector3.new(clampedX, pos.Y, clampedZ)
+end
+
+local function CalculateSmartBossEvade(rootPos, dangerCenter, dangerRadius, safeZoneCenter)
+    local margin = 16
+    local curZId = CurrentZoneId
+    local zRange = nil
+    if curZId then
+        for _, zr in ipairs(ZoneRanges) do
+            if zr.id == curZId then zRange = zr break end
+        end
+    end
+    if not zRange then
+        _, zRange = GetZoneAtZ(rootPos.Z)
+    end
+
+    -- 1. If an official Green Safe Circle exists, ALWAYS prioritize moving inside it!
+    if safeZoneCenter then
+        local safePos = Vector3.new(safeZoneCenter.X, rootPos.Y + 3.0, safeZoneCenter.Z)
+        return ClampPosToZone(safePos, margin)
+    end
+
+    -- 2. Evade radially outside of Red Danger Circle (Radius + 6.0 studs)
+    local reqDist = (dangerRadius or 22) + 6.0
+    local bestCandidate = nil
+    local bestDist = math.huge
+
+    local minX = zRange and (zRange.minX + margin) or -60
+    local maxX = zRange and (zRange.maxX - margin) or 60
+    local minZ = zRange and (zRange.minZ + margin) or (rootPos.Z - 60)
+    local maxZ = zRange and (zRange.maxZ - margin) or (rootPos.Z + 60)
+
+    for i = 0, 15 do
+        local angle = (i / 16) * math.pi * 2
+        local offset = Vector3.new(math.cos(angle) * reqDist, 0, math.sin(angle) * reqDist)
+        local cand = dangerCenter + offset
+
+        if cand.X >= minX and cand.X <= maxX and cand.Z >= minZ and cand.Z <= maxZ then
+            local dist = (Vector3.new(cand.X, 0, cand.Z) - Vector3.new(rootPos.X, 0, rootPos.Z)).Magnitude
+            if dist < bestDist then
+                bestDist = dist
+                bestCandidate = cand
+            end
+        end
+    end
+
+    if bestCandidate then
+        return Vector3.new(bestCandidate.X, rootPos.Y + 3.0, bestCandidate.Z)
+    end
+
+    -- 3. Fallback: Evade upward
+    return Vector3.new(rootPos.X, rootPos.Y + 14.0, rootPos.Z)
+end
+
+-- Boss Skill & AoE Danger Zone Dodger (100% Smart & Zone-Safe Avoidance)
+pcall(function()
+    SafeConnect(Remotes:WaitForChild("BossFx").OnClientEvent, function(action, bossName, skillName, zones, warnDuration)
+        if not Config.AutoDodge or not Config.DodgeBossSkills then return end
+
+        if action == "cancel" then
+            if ActiveBossSkillThread then
+                task.cancel(ActiveBossSkillThread)
+                ActiveBossSkillThread = nil
+            end
+            DodgeActiveUntil = nil
+            DodgeTargetPos = nil
+            TemporaryDodgeHeight = 0
+            return
+        end
+
+        if action == "hit" then
+            PerformDash()
+            task.delay(0.25, function()
+                if ActiveBossSkillThread then
+                    task.cancel(ActiveBossSkillThread)
+                    ActiveBossSkillThread = nil
+                end
+                DodgeActiveUntil = nil
+                DodgeTargetPos = nil
+                TemporaryDodgeHeight = 0
+            end)
+            return
+        end
+
+        if action ~= "warn" or type(zones) ~= "table" then return end
+
+        local root, hum = GetChar()
+        if not root or not hum or hum.Health <= 0 then return end
+
+        local inDanger = false
+        local targetSafePos = nil
+        local dangerCenter = nil
+        local dangerRadius = 22
+
+        for _, z in ipairs(zones) do
+            if type(z) == "table" then
+                if z.Safe then
+                    local sCenter = z.Center or (z.CFrame and z.CFrame.Position)
+                    if sCenter then targetSafePos = sCenter end
+                else
+                    local zCenter = z.Center or (z.CFrame and z.CFrame.Position)
+                    local zRadius = tonumber(z.Radius) or 22
+                    if zCenter then
+                        local pPos2D = Vector3.new(root.Position.X, 0, root.Position.Z)
+                        local zPos2D = Vector3.new(zCenter.X, 0, zCenter.Z)
+                        local dist = (pPos2D - zPos2D).Magnitude
+                        if dist <= (zRadius + 8) then
+                            inDanger = true
+                            dangerCenter = zCenter
+                            dangerRadius = math.max(dangerRadius, zRadius)
+                        end
+                    end
+                end
+            end
+        end
+
+        if targetSafePos then
+            local pPos2D = Vector3.new(root.Position.X, 0, root.Position.Z)
+            local sPos2D = Vector3.new(targetSafePos.X, 0, targetSafePos.Z)
+            if (pPos2D - sPos2D).Magnitude > 8 then
+                inDanger = true
+            end
+        end
+
+        if inDanger then
+            local dur = (warnDuration or 1.5) + 0.35
+            DodgeActiveUntil = os.clock() + dur
+
+            local smartSafePos = CalculateSmartBossEvade(root.Position, dangerCenter or root.Position, dangerRadius, targetSafePos)
+            DodgeTargetPos = smartSafePos
+
+            local _, curYaw, _ = root.CFrame:ToOrientation()
+            root.CFrame = CFrame.new(smartSafePos) * CFrame.Angles(0, curYaw, 0)
+            root.AssemblyLinearVelocity = Vector3.zero
+            root.AssemblyAngularVelocity = Vector3.zero
+            if HoverBV then HoverBV.Velocity = Vector3.zero end
+            if HoverBG then HoverBG.CFrame = CFrame.Angles(0, curYaw, 0) end
+
+            if ActiveBossSkillThread then task.cancel(ActiveBossSkillThread) end
+            ActiveBossSkillThread = task.delay(math.max(0.05, (warnDuration or 1.5) - 0.25), function()
+                PerformDash()
+            end)
+
+            task.delay(dur, function()
+                if DodgeActiveUntil and os.clock() >= DodgeActiveUntil then
+                    DodgeActiveUntil = nil
+                    DodgeTargetPos = nil
+                    TemporaryDodgeHeight = 0
+                end
+            end)
+        end
+    end)
+end)
+
+-- Monster Attack Animation Reaction Dodger (Whiff & i-frame roll)
+local function OnAttackAnimReceived(attacker, target, animName, speed)
+    if not Config.AutoDodge or not Config.DodgeMobAttacks then return end
+    if attacker == LocalPlayer or attacker == LocalPlayer.Character then return end
+
+    local root, hum, char = GetChar()
+    if not root or not hum or hum.Health <= 0 then return end
+
+    local now = os.clock()
+    if now - LastMobDodge < 0.32 then return end
+
+    local isTargetingMe = false
+    if target == LocalPlayer or target == char or target == root then
+        isTargetingMe = true
+    elseif target and target.Parent == char then
+        isTargetingMe = true
+    end
+
+    if attacker and attacker:IsA("Model") then
+        local aRoot = attacker.PrimaryPart or attacker:FindFirstChild("HumanoidRootPart")
+        if aRoot and (aRoot.Position - root.Position).Magnitude <= 18 then
+            isTargetingMe = true
+        end
+    end
+
+    if isTargetingMe then
+        LastMobDodge = now
+        PerformDash()
+        -- Reactive elevation (+9.5 studs): completely whiffs jump-bites, tail-swipes, and slam attacks
+        TemporaryDodgeHeight = math.max(TemporaryDodgeHeight or 0, 9.5)
+        DodgeActiveUntil = os.clock() + 0.45
+        task.delay(0.45, function()
+            if not DodgeActiveUntil or os.clock() >= DodgeActiveUntil then
+                TemporaryDodgeHeight = 0
+                DodgeActiveUntil = nil
+            end
+        end)
+    end
+end
+
+pcall(function()
+    SafeConnect(Remotes:WaitForChild("AttackAnim").OnClientEvent, OnAttackAnimReceived)
+    local animU = Remotes:WaitForChild("AttackAnimU", 10)
+    if animU then SafeConnect(animU.OnClientEvent, OnAttackAnimReceived) end
+end)
+
+-- Zero-Delay Damage Safeguard (Instant reaction upon health loss)
+local LastHealth = nil
+local function SetupHealthSafeguard(char)
+    if not char then return end
+    local hum = char:WaitForChild("Humanoid", 10)
+    if not hum then return end
+    LastHealth = hum.Health
+
+    SafeConnect(hum.HealthChanged, function(newHealth)
+        if not Config.AutoDodge then return end
+        if LastHealth and newHealth < LastHealth and newHealth > 0 then
+            local root = char:FindFirstChild("HumanoidRootPart")
+            if root then
+                PerformDash()
+                TemporaryDodgeHeight = 15.0
+                DodgeActiveUntil = os.clock() + 0.75
+                task.delay(0.75, function()
+                    if DodgeActiveUntil and os.clock() >= DodgeActiveUntil then
+                        TemporaryDodgeHeight = 0
+                        DodgeActiveUntil = nil
+                        DodgeTargetPos = nil
+                    end
+                end)
+            end
+        end
+        LastHealth = newHealth
+    end)
+end
+
+if LocalPlayer.Character then SetupHealthSafeguard(LocalPlayer.Character) end
+SafeConnect(LocalPlayer.CharacterAdded, SetupHealthSafeguard)
+
+-- Emergency Low HP Evasion Watchdog Loop
+task.spawn(function()
+    while true do
+        if _G.KaiTan_ActiveInstance ~= ScriptInstanceId then break end
+        task.wait(0.35)
+        if Config.AutoDodge and Config.DodgeLowHp then
+            local root, hum = GetChar()
+            if root and hum and hum.Health > 0 and hum.MaxHealth > 0 then
+                local hpPct = (hum.Health / hum.MaxHealth) * 100
+                if hpPct <= Config.DodgeHpThreshold then
+                    PerformDash()
+                    TemporaryDodgeHeight = math.max(TemporaryDodgeHeight or 0, 14.0)
+                    DodgeActiveUntil = os.clock() + 0.8
+                end
+            end
+        end
+    end
+end)
+
+-- ==================== AUTO ATTACK KEEPER (UNIVERSAL F KEY & MOBILE TOUCH) ==================== --
+local function TriggerNativeAutoButton()
+    local pGui = LocalPlayer:FindFirstChild("PlayerGui")
+    if not pGui then return false end
+    local triggered = false
+    for _, desc in ipairs(pGui:GetDescendants()) do
+        if desc:IsA("GuiButton") and desc.Visible then
+            local isMatch = false
+            local t = (desc:IsA("TextButton") and desc.Text) or ""
+            if t == "F" or t == "[F]" or t:lower():find("auto") then
+                isMatch = true
+            else
+                local lbl = desc:FindFirstChildWhichIsA("TextLabel")
+                if lbl and (lbl.Text == "F" or lbl.Text == "[F]" or lbl.Text:lower():find("auto")) then
+                    isMatch = true
+                end
+            end
+            if isMatch or desc.Name:lower():find("auto") then
+                UniversalClickButton(desc)
+                triggered = true
+            end
+        end
+    end
+    return triggered
+end
+
+local function EnsureNativeAutoAttack()
+    if not Config.KeepAutoAttack or not Config.AutoFarm or IsRespawning then return end
+    local root, hum = GetChar()
+    if not root or not hum or hum.Health <= 0 then return end
+
+    -- Do not toggle while in town to avoid fighting with game's village auto-off
+    local inTown = LocalPlayer:GetAttribute("InTown") == true or (root.Position.Z >= -64.25 and root.Position.Z <= 500)
+    if inTown then return end
+
+    pcall(function()
+        LocalPlayer:SetAttribute("RespawnKeepBot", true)
+        if LocalPlayer:GetAttribute("AutoOn") ~= true then
+            local toggleEv = LocalPlayer:FindFirstChild("LumiMenuToggle")
+            if toggleEv and toggleEv:IsA("BindableEvent") then
+                toggleEv:Fire("autoToggle")
+            end
+
+            task.wait(0.2)
+            if LocalPlayer:GetAttribute("AutoOn") ~= true then
+                TriggerNativeAutoButton()
+            end
+
+            task.wait(0.2)
+            if LocalPlayer:GetAttribute("AutoOn") ~= true and VirtualInputManager then
+                pcall(function()
+                    VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.F, false, game)
+                    task.wait(0.04)
+                    VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.F, false, game)
+                end)
+            end
+        end
+    end)
+end
+
+local function DisableNativeAutoAttack()
+    pcall(function()
+        LocalPlayer:SetAttribute("RespawnKeepBot", false)
+        if LocalPlayer:GetAttribute("AutoOn") == true then
+            local toggleEv = LocalPlayer:FindFirstChild("LumiMenuToggle")
+            if toggleEv and toggleEv:IsA("BindableEvent") then
+                toggleEv:Fire("autoToggle")
+            end
+
+            task.delay(0.15, function()
+                if LocalPlayer:GetAttribute("AutoOn") == true then
+                    TriggerNativeAutoButton()
+                end
+            end)
+
+            task.delay(0.3, function()
+                if LocalPlayer:GetAttribute("AutoOn") == true and VirtualInputManager then
+                    pcall(function()
+                        VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.F, false, game)
+                        task.wait(0.04)
+                        VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.F, false, game)
+                    end)
+                end
+            end)
+        end
+    end)
+end
+
+SafeConnect(LocalPlayer:GetAttributeChangedSignal("AutoOn"), function()
+    if Config.KeepAutoAttack and Config.AutoFarm and LocalPlayer:GetAttribute("AutoOn") ~= true then
+        task.delay(0.5, function()
+            if IsRespawning then return end
+            local root, hum = GetChar()
+            if hum and hum.Health > 0 and Config.KeepAutoAttack and Config.AutoFarm and LocalPlayer:GetAttribute("AutoOn") ~= true then
+                local inTown = LocalPlayer:GetAttribute("InTown") == true or (root and root.Position.Z >= -64.25 and root.Position.Z <= 500)
+                if not inTown then
+                    task.spawn(EnsureNativeAutoAttack)
+                end
+            end
+        end)
+    elseif not Config.AutoFarm and LocalPlayer:GetAttribute("AutoOn") == true then
+        DisableNativeAutoAttack()
+    end
+end)
+
+task.spawn(function()
+    while true do
+        if _G.KaiTan_ActiveInstance ~= ScriptInstanceId then break end
+        task.wait(1.5)
+        if Config.KeepAutoAttack and Config.AutoFarm and not IsRespawning then
+            local root, hum = GetChar()
+            local inTown = LocalPlayer:GetAttribute("InTown") == true or (root and root.Position.Z >= -64.25 and root.Position.Z <= 500)
+            if not inTown then
+                EnsureNativeAutoAttack()
+            end
+        elseif not Config.AutoFarm and LocalPlayer:GetAttribute("AutoOn") == true then
+            DisableNativeAutoAttack()
+        end
+    end
+end)
+
+task.defer(function()
+    task.wait(0.5)
+    if Config.AutoFarm then
+        EnsureNativeAutoAttack()
+    end
+end)
+
+-- ==================== HIGH-PERFORMANCE SKILLS & QUEST TARGET CACHE ==================== --
+local CachedUsableSkills = {"twinfang", "venomknife", "shadowburst", "vanish", "slash", "fireball", "bash"}
+local CachedQuestTargets = {}
+
+local function RefreshCachedSkills()
+    local active = {}
+    local passiveIgnore = {improvedodge = true, doubleattack = true, bowmastery = true, swordmastery = true}
+    local attr = LocalPlayer:GetAttribute("SkillsJson")
+    if type(attr) == "string" then
+        pcall(function()
+            local decoded = HttpService:JSONDecode(attr)
+            for skillId, level in pairs(decoded) do
+                if type(level) == "number" and level > 0 and not passiveIgnore[skillId:lower()] then
+                    table.insert(active, skillId)
+                end
+            end
+        end)
+    end
+    if #active > 0 then
+        CachedUsableSkills = active
+    end
+end
+
+SafeConnect(LocalPlayer:GetAttributeChangedSignal("SkillsJson"), RefreshCachedSkills)
+task.defer(RefreshCachedSkills)
+
+local function GetUsableSkills()
+    return CachedUsableSkills
+end
+
+-- ==================== AUTO QUEST CONTROLLER ==================== --
+local function RefreshCachedQuestTargets()
+    local targets = {}
+    local raw = LocalPlayer:GetAttribute("QuestsJson")
+    if type(raw) ~= "string" then
+        CachedQuestTargets = targets
+        return
+    end
+
+    local ok, pData = pcall(function() return HttpService:JSONDecode(raw) end)
+    if not ok or type(pData) ~= "table" then
+        CachedQuestTargets = targets
+        return
+    end
+
+    local Shared = ReplicatedStorage:FindFirstChild("Shared")
+    if not Shared or not Shared:FindFirstChild("QuestData") then
+        CachedQuestTargets = targets
+        return
+    end
+    local QuestData = require(Shared.QuestData)
+
+    local active = pData.Active or {}
+    for qId in pairs(active) do
+        local qDef = QuestData.Quests[qId]
+        if qDef and qDef.Type == "kill" and qDef.Target then
+            targets[qDef.Target:lower()] = true
+        end
+    end
+    CachedQuestTargets = targets
+end
+
+SafeConnect(LocalPlayer:GetAttributeChangedSignal("QuestsJson"), RefreshCachedQuestTargets)
+task.defer(RefreshCachedQuestTargets)
+
+local function GetCurrentActiveQuestTargets()
+    return CachedQuestTargets
+end
+
+local function ProcessAutoQuests()
+    if not Config.AutoQuest then return end
+    pcall(function()
+        local raw = LocalPlayer:GetAttribute("QuestsJson")
+        if type(raw) ~= "string" then return end
+        local pData = HttpService:JSONDecode(raw)
+        if type(pData) ~= "table" then return end
+
+        local Shared = ReplicatedStorage:FindFirstChild("Shared")
+        if not Shared or not Shared:FindFirstChild("QuestData") then return end
+        local QuestData = require(Shared.QuestData)
+
+        local active = pData.Active or {}
+        local done = pData.Done or {}
+        local daily = pData.Daily or {}
+        local today = pData.Today or 0
+        local pLvl = GetPlayerLevel()
+        local itemsRaw = LocalPlayer:GetAttribute("ItemsJson")
+        local items = (type(itemsRaw) == "string" and HttpService:JSONDecode(itemsRaw)) or {}
+
+        -- 1. Check and Claim Completed Active Quests
+        local questSummaryList = {}
+        for qId, curVal in pairs(active) do
+            local qDef = QuestData.Quests[qId]
+            if qDef then
+                local current = tonumber(curVal) or 0
+                if qDef.Type == "collect" then
+                    current = tonumber(items[qDef.Target]) or 0
+                elseif qDef.Type == "level" then
+                    current = pLvl
+                elseif qDef.Type == "check" then
+                    current = 1 -- เควสประเภท Check สามารถกดรับได้ทันทีโดยไม่ต้องเปิดหน้าต่าง GUI ให้ขวางจอ
+                end
+
+                table.insert(questSummaryList, string.format("%s (%d/%d)", qDef.Target or qId, math.min(current, qDef.Count or 1), qDef.Count or 1))
+
+                if current >= (qDef.Count or 1) then
+                    Remotes.QuestAction:FireServer("claim", qId)
+                    task.wait(0.08)
+                end
+            end
+        end
+
+        CurrentQuestSummary = #questSummaryList > 0 and table.concat(questSummaryList, ", ") or "None"
+
+        -- 2. Sort Quests by Order to find Next Main Quest
+        local sortedQuests = {}
+        for qId, def in pairs(QuestData.Quests) do
+            table.insert(sortedQuests, { Id = qId, Def = def })
+        end
+        table.sort(sortedQuests, function(a, b) return (a.Def.Order or 0) < (b.Def.Order or 0) end)
+
+        local nextMain = nil
+        for _, item in ipairs(sortedQuests) do
+            local def = item.Def
+            if not def.Guide and not def.Daily and not def.Repeat and not done[item.Id] then
+                nextMain = item.Id
+                break
+            end
+        end
+
+        -- 3. Accept Next Main Quest if available
+        if nextMain and not active[nextMain] then
+            local def = QuestData.Quests[nextMain]
+            if def and pLvl >= (def.ReqLevel or 1) then
+                Remotes.QuestAction:FireServer("accept", nextMain)
+                task.wait(0.08)
+            end
+        end
+
+        -- 4. Accept Daily Quests if available today
+        for _, item in ipairs(sortedQuests) do
+            local qId = item.Id
+            local def = item.Def
+            if def.Daily and not active[qId] and (daily[qId] ~= today) then
+                if pLvl >= (def.ReqLevel or 1) then
+                    Remotes.QuestAction:FireServer("accept", qId)
+                    task.wait(0.08)
+                end
+            end
+        end
+
+        -- 5. Accept Best Repeatable Quest for Current Level / Zone
+        local bestRepeat = nil
+        for _, item in ipairs(sortedQuests) do
+            local qId = item.Id
+            local def = item.Def
+            if def.Repeat and pLvl >= (def.ReqLevel or 1) then
+                bestRepeat = qId
+            end
+        end
+
+        if bestRepeat and not active[bestRepeat] then
+            local hasActiveRepeat = false
+            for aId in pairs(active) do
+                local aDef = QuestData.Quests[aId]
+                if aDef and aDef.Repeat then
+                    hasActiveRepeat = true
+                    break
+                end
+            end
+            if not hasActiveRepeat then
+                Remotes.QuestAction:FireServer("accept", bestRepeat)
+                task.wait(0.08)
+            end
+        end
+    end)
+end
+
+SafeConnect(LocalPlayer:GetAttributeChangedSignal("QuestsJson"), function()
+    task.delay(0.4, ProcessAutoQuests)
+end)
+
+task.spawn(function()
+    while true do
+        if _G.KaiTan_ActiveInstance ~= ScriptInstanceId then break end
+        task.wait(2.5)
+        if Config.AutoQuest then
+            ProcessAutoQuests()
+        end
+    end
+end)
+
+task.defer(function()
+    task.wait(1.5)
+    ProcessAutoQuests()
+end)
+
+-- ==================== AUTO CLOSE INTRUSIVE WINDOWS ==================== --
+local function CloseIntrusiveWindows()
+    if not Config.CloseIntrusiveWindows then return end
+    pcall(function()
+        local pGui = LocalPlayer:FindFirstChild("PlayerGui")
+        if not pGui then return end
+
+        -- 1. HuntCharPage ("Power & Skills" window)
+        local hcp = pGui:FindFirstChild("HuntCharPage")
+        if hcp and hcp.Enabled then
+            hcp.Enabled = false
+            LocalPlayer:SetAttribute("HuntCharPageOpen", false)
+            LocalPlayer:SetAttribute("HuntStatScreenOpen", false)
+            local ev = LocalPlayer:FindFirstChild("HuntCharPage")
+            if ev and ev:IsA("BindableEvent") then
+                ev:Fire("close")
+            end
+        end
+
+        -- 2. HuntStatScreen
+        local hss = pGui:FindFirstChild("HuntStatScreen")
+        if hss and hss.Enabled then
+            hss.Enabled = false
+            LocalPlayer:SetAttribute("HuntStatScreenOpen", false)
+            local ev = LocalPlayer:FindFirstChild("HuntStatScreen")
+            if ev and ev:IsA("BindableEvent") then
+                ev:Fire("close")
+            end
+        end
+
+        -- 3. LumiSkills Frame
+        local ls = pGui:FindFirstChild("LumiSkills")
+        if ls and ls.Enabled then
+            local f = ls:FindFirstChild("Frame")
+            if f and f.Visible then
+                f.Visible = false
+            end
+        end
+
+        -- 4. HuntEventNpc ("Level Race Event" window with Ron)
+        local hen = pGui:FindFirstChild("HuntEventNpc")
+        if hen and hen.Enabled then
+            hen.Enabled = false
+            local ev = LocalPlayer:FindFirstChild("HuntEventNpc")
+            if ev and ev:IsA("BindableEvent") then
+                ev:Fire("close")
+            end
+        end
+
+        -- 5. Close CoreGui "Join RonB Games" Community prompt & Low FPS prompt
+        pcall(function()
+            if CoreGui then
+                local notNow = CoreGui:FindFirstChild("2-Not Now", true)
+                if notNow and notNow:IsA("GuiButton") and notNow.Visible then
+                    UniversalClickButton(notNow)
+                end
+
+                local joinPrompt = CoreGui:FindFirstChild("PromptDialog") or CoreGui:FindFirstChild("ExperiencePromptGui")
+                if joinPrompt then
+                    local xBtn = joinPrompt:FindFirstChild("CloseButton", true)
+                    if xBtn and xBtn:IsA("GuiButton") and xBtn.Visible then
+                        UniversalClickButton(xBtn)
+                    end
+                end
+
+                local lowFps = CoreGui:FindFirstChild("Low FPS", true)
+                if lowFps then
+                    local parent = lowFps.Parent
+                    local nn = parent and (parent:FindFirstChild("Not Now", true) or parent:FindFirstChild("2-Not Now", true))
+                    if nn and nn:IsA("GuiButton") and nn.Visible then
+                        UniversalClickButton(nn)
+                    end
+                    local x = parent and parent:FindFirstChild("X", true)
+                    if x and x:IsA("GuiButton") and x.Visible then
+                        UniversalClickButton(x)
+                    end
+                end
+            end
+        end)
+
+        -- 6. Dismiss WeightAlert Toast if open after bag has space
+        local wa = pGui:FindFirstChild("LumiWeightAlert")
+        if wa then
+            local wt = wa:FindFirstChild("WeightToast")
+            if wt and wt.Visible and LocalPlayer:GetAttribute("BagSlotsUsed") and LocalPlayer:GetAttribute("BagSlotsMax") then
+                local used = LocalPlayer:GetAttribute("BagSlotsUsed") or 0
+                local maxS = LocalPlayer:GetAttribute("BagSlotsMax") or 120
+                if (maxS - used) >= 15 then
+                    wt.Visible = false
+                end
+            end
+        end
+    end)
+end
+
+SafeConnect(LocalPlayer:GetAttributeChangedSignal("HuntCharPageOpen"), function()
+    if LocalPlayer:GetAttribute("HuntCharPageOpen") == true then
+        task.defer(CloseIntrusiveWindows)
+    end
+end)
+
+SafeConnect(LocalPlayer:GetAttributeChangedSignal("HuntStatScreenOpen"), function()
+    if LocalPlayer:GetAttribute("HuntStatScreenOpen") == true then
+        task.defer(CloseIntrusiveWindows)
+    end
+end)
+
+task.spawn(function()
+    while true do
+        if _G.KaiTan_ActiveInstance ~= ScriptInstanceId then break end
+        task.wait(0.8)
+        if Config.CloseIntrusiveWindows then
+            CloseIntrusiveWindows()
+        end
+    end
+end)
+
+task.defer(function()
+    task.wait(0.5)
+    CloseIntrusiveWindows()
+end)
+
+-- ==================== MONSTER POSITION & TARGETING WITH BOSS & QUEST PRIORITY ==================== --
+local function GetMobPosition(mob)
+    if not mob or not mob.Parent then return nil end
+    local pPart = mob.PrimaryPart or mob:FindFirstChild("HumanoidRootPart")
+    if pPart then return pPart.Position, pPart end
+    local anyPart = mob:FindFirstChildWhichIsA("BasePart")
+    if anyPart then return anyPart.Position, anyPart end
+    if mob:FindFirstChild("Visual") then
+        local vPart = mob.Visual.PrimaryPart or mob.Visual:FindFirstChildWhichIsA("BasePart")
+        if vPart then return vPart.Position, vPart end
+    end
+    local ok, pv = pcall(function() return mob:GetPivot() end)
+    if ok and pv then return pv.Position, nil end
+    return nil
+end
+
+local function GetMobCFrame(mob)
+    if not mob or not mob.Parent then return nil, nil end
+    local pPart = mob.PrimaryPart or mob:FindFirstChild("HumanoidRootPart")
+    if pPart then return pPart.CFrame, pPart end
+    local anyPart = mob:FindFirstChildWhichIsA("BasePart")
+    if anyPart then return anyPart.CFrame, anyPart end
+    if mob:FindFirstChild("Visual") then
+        local vPart = mob.Visual.PrimaryPart or mob.Visual:FindFirstChildWhichIsA("BasePart")
+        if vPart then return vPart.CFrame, vPart end
+    end
+    local ok, pv = pcall(function() return mob:GetPivot() end)
+    if ok and pv then return pv, nil end
+    return nil, nil
+end
+
+local function IsBossMob(mob)
+    if not mob then return false end
+    if mob:GetAttribute("IsBoss") == true or mob:GetAttribute("IsMiniBoss") == true or mob:GetAttribute("IsLeader") == true then
+        return true
+    end
+    local id = tostring(mob:GetAttribute("Id") or mob:GetAttribute("MonsterId") or mob.Name):lower()
+    local bossKeywords = {
+        "boss", "king", "titan", "queen", "lord", "warden", "leviathan",
+        "tyrant", "behemoth", "pharaoh", "sovereign", "goliath", "alpha", "colossus"
+    }
+    for _, kw in ipairs(bossKeywords) do
+        if id:find(kw) then return true end
+    end
+    return false
+end
+
+local function GetBestMonster()
+    local root = GetChar()
+    if not root then return nil end
+
+    -- 1. Sticky Target: Keep attacking current target until it dies to prevent shaking between mobs
+    if CurrentTarget and CurrentTarget.Parent then
+        local hp = tonumber(CurrentTarget:GetAttribute("HP")) or 0
+        if hp > 0 then
+            local mobPos = GetMobPosition(CurrentTarget)
+            if mobPos then
+                local dist = (mobPos - root.Position).Magnitude
+                -- Drop sticky target if too far away (e.g. after death/respawn or warp)
+                if dist <= 120 then
+                    local inZone = true
+                    if CurrentZoneId then
+                        local mobZone = GetZoneAtZ(mobPos.Z)
+                        if mobZone and mobZone ~= CurrentZoneId then
+                            inZone = false
+                        end
+                    end
+                    if inZone then
+                        return CurrentTarget
+                    end
+                end
+            end
+        end
+    end
+
+    -- 2. Target Selection: Boss First -> Quest Target Mob -> Nearest Normal Mob
+    local mf = workspace:FindFirstChild("Monsters")
+    if not mf then return nil end
+
+    local bestBoss = nil
+    local minBossDist = math.huge
+    local bestQuestMob = nil
+    local minQuestDist = math.huge
+    local bestNormal = nil
+    local minNormalDist = math.huge
+
+    local questTargets = Config.AutoQuest and CachedQuestTargets or {}
+
+    for _, mob in ipairs(mf:GetChildren()) do
+        local hp = tonumber(mob:GetAttribute("HP")) or 0
+        if hp > 0 then
+            local mobPos = GetMobPosition(mob)
+            if mobPos then
+                if CurrentZoneId then
+                    local mobZone = GetZoneAtZ(mobPos.Z)
+                    if mobZone and mobZone ~= CurrentZoneId then
+                        continue
+                    end
+                end
+                local dist = (mobPos - root.Position).Magnitude
+                local mId = tostring(mob:GetAttribute("Id") or mob:GetAttribute("MonsterId") or mob.Name):lower()
+                local isQuestTarget = false
+                for qTarget in pairs(questTargets) do
+                    if mId:find(qTarget) or qTarget:find(mId) then
+                        isQuestTarget = true
+                        break
+                    end
+                end
+
+                if IsBossMob(mob) then
+                    if dist < minBossDist then
+                        minBossDist = dist
+                        bestBoss = mob
+                    end
+                elseif isQuestTarget then
+                    if dist < minQuestDist then
+                        minQuestDist = dist
+                        bestQuestMob = mob
+                    end
+                else
+                    if dist < minNormalDist then
+                        minNormalDist = dist
+                        bestNormal = mob
+                    end
+                end
+            end
+        end
+    end
+
+    local chosenMob = bestBoss or bestQuestMob or bestNormal
+    if not chosenMob then
+        -- Fallback: If no mob found in strict zone, pick nearest mob within 160 studs
+        local fallbackDist = 160
+        for _, mob in ipairs(mf:GetChildren()) do
+            local hp = tonumber(mob:GetAttribute("HP")) or 0
+            if hp > 0 then
+                local mobPos = GetMobPosition(mob)
+                if mobPos then
+                    local dist = (mobPos - root.Position).Magnitude
+                    if dist < fallbackDist then
+                        fallbackDist = dist
+                        chosenMob = mob
+                    end
+                end
+            end
+        end
+    end
+
+    return chosenMob
+end
+
+-- ==================== AUTO EQUIP BEST GEAR & CARDS ==================== --
+local function EquipBestGear()
+    pcall(function()
+        local diffs = Remotes.GearPreviewAll:InvokeServer()
+        if type(diffs) == "table" then
+            local candidates = {}
+            for ref, score in pairs(diffs) do
+                if type(score) == "number" and score > 0 then
+                    table.insert(candidates, {ref = ref, score = score})
+                end
+            end
+            table.sort(candidates, function(a, b) return a.score > b.score end)
+            for _, item in ipairs(candidates) do
+                Remotes.EquipItem:FireServer(item.ref)
+                task.wait(0.08)
+            end
+            Remotes.SetAutoEquip:FireServer(true)
+        end
+    end)
+end
+
+local CardSlots = {"RightHand", "Body", "HeadTop", "Acc1", "Garment", "HeadMid", "Acc2", "Shoes"}
+if not _G.KaiTan_FailedCards then _G.KaiTan_FailedCards = {} end
+local FailedCardSlots = _G.KaiTan_FailedCards
+
+local function ProcessAutoInsertCards()
+    if not Config.AutoInsertCards then return end
+    pcall(function()
+        -- 1. Server-side auto card equip
+        if Remotes and Remotes.CardAction then
+            Remotes.CardAction:FireServer("auto")
+        end
+
+        -- 2. Client-side inspection of bag for specific cards and slot matching
+        local itemsRaw = LocalPlayer:GetAttribute("ItemsJson") or "{}"
+        local items = HttpService:JSONDecode(itemsRaw)
+        local cardsRaw = LocalPlayer:GetAttribute("CardsJson") or "{}"
+        local equippedCards = HttpService:JSONDecode(cardsRaw)
+
+        local Shared = ReplicatedStorage:FindFirstChild("Shared")
+        local ItemData = Shared and Shared:FindFirstChild("ItemData") and require(Shared.ItemData)
+        local GearUtil = Shared and Shared:FindFirstChild("GearUtil") and require(Shared.GearUtil)
+
+        if not ItemData or not GearUtil then return end
+
+        for itemId, count in pairs(items) do
+            if type(count) == "number" and count > 0 then
+                local def = ItemData[itemId]
+                if def and def.Kind == "card" and not FailedCardSlots[itemId] then
+                    -- Smart equip through server
+                    Remotes.CardAction:FireServer("smart", itemId)
+
+                    -- Also attempt direct slot fill for any empty compatible socket
+                    local fitted = false
+                    for _, slot in ipairs(CardSlots) do
+                        local curCard = equippedCards[slot] or ""
+                        local key = slot .. "_" .. itemId
+                        if curCard == "" and not FailedCardSlots[key] and GearUtil.CardFits(def, slot) then
+                            FailedCardSlots[key] = true
+                            fitted = true
+                            Remotes.CardAction:FireServer("equip", slot, itemId)
+                            equippedCards[slot] = itemId
+                            print(string.format("[spinach] Auto Inserted Card: %s into %s", def.Name or itemId, slot))
+                            task.wait(0.1)
+                            break
+                        end
+                    end
+                    if not fitted then
+                        FailedCardSlots[itemId] = true
+                    end
+                end
+            end
+        end
+    end)
+end
+
+pcall(function()
+    SafeConnect(Remotes:WaitForChild("Notify").OnClientEvent, function(msg, kind, color, data)
+        if Config.AutoEquipBest and kind == "loot" and type(data) == "table" and data.Gear and type(data.Ref) == "string" then
+            task.delay(0.3, function()
+                local ok, diff = pcall(function() return Remotes.GearPreview:InvokeServer(data.Ref) end)
+                if ok and type(diff) == "number" and diff > 0 then
+                    Remotes.EquipItem:FireServer(data.Ref)
+                end
+            end)
+        end
+    end)
+
+    SafeConnect(Remotes:WaitForChild("CardDrop").OnClientEvent, function(cardId)
+        if Config.AutoInsertCards and type(cardId) == "string" then
+            task.delay(0.3, function()
+                ProcessAutoInsertCards()
+            end)
+        end
+    end)
+
+    SafeConnect(LocalPlayer:GetAttributeChangedSignal("ItemsJson"), function()
+        if Config.AutoInsertCards then
+            task.delay(0.5, ProcessAutoInsertCards)
+        end
+    end)
+end)
+
+-- ==================== ZONE-RESTRICTED AUTO OPEN RELIC & HALLOWEEN BOXES ==================== --
+local function GetZoneRelicBoxes()
+    local root = GetChar()
+    if not root then return {} end
+    local pPos = root.Position
+    local serverTime = workspace:GetServerTimeNow()
+
+    local curZoneId = CurrentZoneId or GetZoneAtZ(pPos.Z)
+    local zr = nil
+    if curZoneId then
+        for _, r in ipairs(ZoneRanges) do
+            if r.id == curZoneId then
+                zr = r
+                break
+            end
+        end
+    end
+
+    local eligible = {}
+    local seen = {}
+
+    local function evaluateBox(bPart, bModel)
+        if not bPart or not bPart:IsA("BasePart") or not bPart.Parent then return end
+        if seen[bPart] then return end
+        seen[bPart] = true
+
+        local ownerId = tonumber(bPart:GetAttribute("OwnerUserId")) or 0
+        local freeAt = tonumber(bPart:GetAttribute("FreeAt")) or 0
+        local isUnlocked = (ownerId == 0 or ownerId == LocalPlayer.UserId or serverTime >= freeAt)
+        if not isUnlocked then return end
+
+        local inZone = false
+        if zr then
+            inZone = (bPart.Position.Z >= zr.minZ and bPart.Position.Z < zr.maxZ)
+        else
+            inZone = ((bPart.Position - pPos).Magnitude <= 160)
+        end
+
+        if inZone then
+            local dist = (bPart.Position - pPos).Magnitude
+            table.insert(eligible, {
+                part = bPart,
+                model = bModel or bPart.Parent,
+                dist = dist
+            })
+        end
+    end
+
+    for _, bPart in ipairs(CollectionService:GetTagged("LootBox")) do
+        evaluateBox(bPart, bPart.Parent)
+    end
+
+    for _, obj in ipairs(workspace:GetChildren()) do
+        if obj:IsA("Model") and (obj.Name:find("LootBoxModel") or obj.Name:find("relic_box") or obj.Name:find("Halloween")) then
+            local bPart = obj:FindFirstChild("LootBox_relic_box") or obj.PrimaryPart or obj:FindFirstChildWhichIsA("BasePart")
+            if bPart then
+                evaluateBox(bPart, obj)
+            end
+        end
+    end
+
+    table.sort(eligible, function(a, b) return a.dist < b.dist end)
+    return eligible
+end
+
+local function OpenNearbyRelicBox()
+    local root, hum = GetChar()
+    if not root or not hum or hum.Health <= 0 or IsOpeningChest then return end
+
+    local boxes = GetZoneRelicBoxes()
+    if #boxes == 0 then return end
+
+    local target = boxes[1]
+    local bPart = target.part
+    local bModel = target.model
+
+    IsOpeningChest = true
+    local origCF = root.CFrame
+    local _, curYaw, _ = root.CFrame:ToOrientation()
+
+    root.AssemblyLinearVelocity = Vector3.zero
+    root.AssemblyAngularVelocity = Vector3.zero
+    if HoverBV then HoverBV.Velocity = Vector3.zero end
+
+    root.CFrame = CFrame.new(bPart.Position + Vector3.new(0, 1.8, 0)) * CFrame.Angles(0, curYaw, 0)
+    task.wait(0.12)
+
+    pcall(function() Remotes.OpenLootBox:FireServer(bPart) end)
+
+    if bModel and bModel:IsA("Model") then
+        pcall(function() Remotes.OpenLootBox:FireServer(bModel) end)
+    end
+
+    local prompt = bPart:FindFirstChildWhichIsA("ProximityPrompt") or (bModel and bModel:FindFirstChildWhichIsA("ProximityPrompt", true))
+    if prompt then
+        pcall(function()
+            if fireproximityprompt then
+                fireproximityprompt(prompt)
+            else
+                prompt:InputHoldBegin()
+                task.wait(0.05)
+                prompt:InputHoldEnd()
+            end
+        end)
+    end
+
+    task.wait(0.2)
+    root.CFrame = origCF
+    IsOpeningChest = false
+end
+
+-- ==================== AUTO HALLOWEEN WITCH HOUSE KNOCK (TRICK OR TREAT) ==================== --
+local function ProcessAutoHalloweenKnock(force)
+    if not Config.AutoHalloweenKnock or IsKnockingHalloween or IsSellingGear or IsBuyingPotions or IsProcessingEventNpc or IsOpeningChest then
+        return
+    end
+
+    local itemsRaw = LocalPlayer:GetAttribute("ItemsJson")
+    if type(itemsRaw) ~= "string" or itemsRaw == "" then return end
+    local ok1, items = pcall(function() return HttpService:JSONDecode(itemsRaw) end)
+    if not ok1 or type(items) ~= "table" then return end
+
+    local candy = tonumber(items["halloween_candy"]) or 0
+    local minCandy = Config.MinHalloweenCandy or 100
+    if candy < minCandy then return end
+
+    local now = os.clock()
+    if not force and (now - LastHalloweenKnockTime < 4.0) then return end
+
+    -- Guard: Never abandon active boss fight
+    if CurrentTarget and CurrentTarget.Parent and IsBossMob(CurrentTarget) then
+        local bHp = tonumber(CurrentTarget:GetAttribute("HP")) or 0
+        if bHp > 0 then return end
+    end
+
+    local root, hum = GetChar()
+    if not root or not hum or hum.Health <= 0 or IsRespawning then return end
+
+    local houseFolder = workspace:FindFirstChild("Map") and workspace.Map:FindFirstChild("Halloween_TrickTreat")
+    if not houseFolder then return end
+
+    local bestPrompt = nil
+    local bestSpot = nil
+    local bestDist = math.huge
+
+    for _, h in ipairs(houseFolder:GetChildren()) do
+        local spot = h:FindFirstChild("KnockSpot")
+        local prompt = spot and spot:FindFirstChild("KnockPrompt")
+        if prompt and prompt.Enabled then
+            local dist = (spot.Position - root.Position).Magnitude
+            if dist < bestDist then
+                bestDist = dist
+                bestPrompt = prompt
+                bestSpot = spot
+            end
+        end
+    end
+
+    if not bestPrompt or not bestSpot then return end
+
+    IsKnockingHalloween = true
+    LastHalloweenKnockTime = now
+    CurrentTarget = nil
+
+    task.spawn(function()
+        pcall(function()
+            local origCF = root.CFrame
+
+            print(string.format("🎃 Auto Halloween: Visiting %s to knock with %d candies...", bestSpot.Parent.Name, candy))
+
+            -- Stop physics & velocity
+            root.AssemblyLinearVelocity = Vector3.zero
+            root.AssemblyAngularVelocity = Vector3.zero
+            if HoverBV then HoverBV.Velocity = Vector3.zero end
+
+            -- Teleport directly in front of the knock spot facing it
+            local spotPos = bestSpot.Position
+            local standPos = spotPos + Vector3.new(0, 1.2, 0)
+            local targetCF = CFrame.lookAt(standPos + Vector3.new(0, 0, 2), spotPos)
+            root.CFrame = targetCF
+            if HoverBG then HoverBG.CFrame = targetCF end
+            task.wait(0.5)
+
+            -- Knock repeatedly while candies >= minCandy (up to 10 knocks per batch)
+            local knocksDone = 0
+            while knocksDone < 10 do
+                local curItemsRaw = LocalPlayer:GetAttribute("ItemsJson") or "{}"
+                local curItems = (type(curItemsRaw) == "string" and HttpService:JSONDecode(curItemsRaw)) or {}
+                local curCandy = tonumber(curItems["halloween_candy"]) or 0
+                if curCandy < minCandy then break end
+
+                -- Anchor at knock spot
+                root.AssemblyLinearVelocity = Vector3.zero
+                root.AssemblyAngularVelocity = Vector3.zero
+                root.CFrame = targetCF
+                if HoverBV then HoverBV.Velocity = Vector3.zero end
+                if HoverBG then HoverBG.CFrame = targetCF end
+
+                if fireproximityprompt then
+                    fireproximityprompt(bestPrompt, 0)
+                else
+                    bestPrompt:InputHoldBegin()
+                    task.wait(0.08)
+                    bestPrompt:InputHoldEnd()
+                end
+
+                knocksDone = knocksDone + 1
+
+                -- Wait for door animation & TrickTreat cooldown (3.5 seconds)
+                local waitStart = os.clock()
+                while (os.clock() - waitStart < 3.5) do
+                    task.wait(0.2)
+                    local checkItems = (pcall(function() return HttpService:JSONDecode(LocalPlayer:GetAttribute("ItemsJson") or "{}") end) and HttpService:JSONDecode(LocalPlayer:GetAttribute("ItemsJson") or "{}")) or {}
+                    if (tonumber(checkItems["halloween_candy"]) or 0) < curCandy and (os.clock() - waitStart >= 2.0) and bestPrompt.Enabled then
+                        break
+                    end
+                end
+            end
+
+            print(string.format("[spinach] 🎃 Witch's House knock finished! Successfully exchanged %d times.", knocksDone))
+
+            -- Restore position cleanly
+            root.AssemblyLinearVelocity = Vector3.zero
+            root.AssemblyAngularVelocity = Vector3.zero
+            root.CFrame = origCF
+            if HoverBG then HoverBG.CFrame = origCF end
+            task.wait(0.3)
+        end)
+        IsKnockingHalloween = false
+    end)
+end
+
+-- ==================== AUTO RESPAWN & DEATH RETREAT CONTROLLER ==================== --
+local function OnCharacterDied()
+    local now = os.clock()
+    if now - LastDeathTimestamp > 2.5 then
+        LastDeathTimestamp = now
+        DeathCountInZone = DeathCountInZone + 1
+        print(string.format("[spinach] Character died! Death count in current zone: %d/%d", DeathCountInZone, Config.MaxDeathsBeforeRetreat or 10))
+
+        if Config.RetreatOnHighDeaths and DeathCountInZone >= (Config.MaxDeathsBeforeRetreat or 10) then
+            local itemsRaw = LocalPlayer:GetAttribute("ItemsJson")
+            local items = (type(itemsRaw) == "string" and HttpService:JSONDecode(itemsRaw)) or {}
+            local totalHp = (tonumber(items["red_potion"]) or 0) + (tonumber(items["red_potion_m"]) or 0) + (tonumber(items["white_potion"]) or 0)
+            local silver = tonumber(LocalPlayer:GetAttribute("Silver")) or 0
+            if totalHp >= 20 or silver >= 5000 then
+                DeathCountInZone = 0
+                return
+            end
+
+            if not IsRetreatingForPotions then
+                IsRetreatingForPotions = true
+                local curLvl = GetPlayerLevel()
+                local baseZoneId, _ = GetTargetZoneForLevel(curLvl)
+                RetreatedBaseZoneId = baseZoneId
+                local prevZoneId, prevName = GetPreviousFarmZone(baseZoneId)
+                print(string.format("[spinach] ⚠️ Died %d times and low on potions/silver! Retreating from %s to %s to farm.", DeathCountInZone, baseZoneId, prevZoneId))
+                SendWebhook("⚠️ ถอยกลับไปฟาร์มเงินซื้อยา", string.format("ตัวละครตายครบ %d ครั้งใน %s และยาหมด! กำลังถอยไปฟาร์มเงินที่ %s", DeathCountInZone, baseZoneId, prevName), 0xFF6600)
+                DeathCountInZone = 0
+                task.delay(1.0, function()
+                    TeleportTo(prevZoneId, prevName .. " [POTION FARM]")
+                end)
+            end
+        end
+    end
+end
+
+local function HandleRespawn()
+    OnCharacterDied()
+    if IsRespawning then return end
+    IsRespawning = true
+    CurrentTarget = nil
+    LastTargetSent = nil
+
+    local root = GetChar()
+    ClearHover(root)
+
+    pcall(function()
+        LocalPlayer:SetAttribute("RespawnKeepBot", true)
+    end)
+
+    task.spawn(function()
+        pcall(function() Remotes.RespawnChoice:FireServer("here") end)
+        task.wait(0.8)
+        local _, hum = GetChar()
+        if not hum or hum.Health <= 0 then
+            pcall(function() Remotes.RespawnChoice:FireServer("town") end)
+        end
+    end)
+end
+
+pcall(function()
+    SafeConnect(Remotes:WaitForChild("DeathPrompt").OnClientEvent, HandleRespawn)
+end)
+
+SafeConnect(LocalPlayer.CharacterAdded, function(char)
+    IsRespawning = true
+    CurrentTarget = nil
+    LastTargetSent = nil
+
+    pcall(function()
+        LocalPlayer:SetAttribute("RespawnKeepBot", true)
+    end)
+
+    local hum = char:WaitForChild("Humanoid", 10)
+    local root = char:WaitForChild("HumanoidRootPart", 10)
+    if hum then
+        SafeConnect(hum.Died, HandleRespawn)
+    end
+    if root then
+        ClearHover(root)
+    end
+
+    task.spawn(function()
+        task.wait(0.6)
+        if not Config.AutoFarm then
+            IsRespawning = false
+            return
+        end
+
+        local rootPart, humanoid = GetChar()
+        if not rootPart or not humanoid or humanoid.Health <= 0 then
+            IsRespawning = false
+            return
+        end
+
+        local curZ = rootPart.Position.Z
+        local inTown = (curZ >= -64.25 and curZ <= 500) or (LocalPlayer:GetAttribute("InTown") == true)
+        local targetZoneId, targetName = GetEffectiveTargetZone(GetPlayerLevel())
+
+        if inTown or (CurrentZoneId and CurrentZoneId ~= targetZoneId) then
+            print(string.format("[spinach] Respawned: warping to farm zone %s (%s)...", targetName, targetZoneId))
+            TeleportTo(targetZoneId, targetName)
+
+            local startWarp = os.clock()
+            while (os.clock() - startWarp) < 3.0 do
+                task.wait(0.2)
+                local curRoot, curHum = GetChar()
+                if curRoot and curHum and curHum.Health > 0 then
+                    local z = curRoot.Position.Z
+                    local stillInTown = (z >= -64.25 and z <= 500) or (LocalPlayer:GetAttribute("InTown") == true)
+                    if not stillInTown then
+                        break
+                    end
+                end
+            end
+        end
+
+        local finalRoot = GetChar()
+        if finalRoot then
+            ClearHover(finalRoot)
+        end
+        CurrentTarget = nil
+        LastTargetSent = nil
+
+        task.wait(0.3)
+        IsRespawning = false
+
+        if Config.KeepAutoAttack and Config.AutoFarm then
+            task.spawn(EnsureNativeAutoAttack)
+            task.delay(1.2, function()
+                if Config.KeepAutoAttack and Config.AutoFarm then
+                    task.spawn(EnsureNativeAutoAttack)
+                end
+            end)
+        end
+    end)
+end)
+
+-- ==================== DISCORD WEBHOOK ==================== --
+local function SendWebhook(title, desc, color)
+    if not Config.WebhookEnabled or Config.WebhookURL == "" then return end
+    local req = GetUniversalRequest()
+    if not req then return end
+    task.spawn(function()
+        pcall(function()
+            req({
+                Url = Config.WebhookURL,
+                Method = "POST",
+                Headers = {["Content-Type"] = "application/json"},
+                Body = HttpService:JSONEncode({
+                    username = "Kai Tan Bot · Status",
+                    embeds = {{
+                        title = title,
+                        description = desc,
+                        color = color or 0x00FF88,
+                        fields = {
+                            { name = "👤 Player", value = string.format("%s (@%s)", LocalPlayer.DisplayName, LocalPlayer.Name), inline = true },
+                            { name = "⭐ Level", value = tostring(GetPlayerLevel()), inline = true },
+                            { name = "🗺️ Zone", value = tostring(CurrentZoneName or "Unknown"), inline = true },
+                            { name = "💰 Silver", value = tostring(LocalPlayer:GetAttribute("Silver") or 0), inline = true }
+                        },
+                    }}
+                })
+            })
+        end)
+    end)
+end
+
+-- ==================== NOCLIP & COLLISION BYPASS ==================== --
+SafeConnect(RunService.Stepped, function()
+    if Config.AutoFarm then
+        for i = 1, #CharPartsCache do
+            local p = CharPartsCache[i]
+            if p and p.Parent and p.CanCollide then
+                p.CanCollide = false
+            end
+        end
+    end
+end)
+
+-- ==================== 60 FPS ULTRA-STABLE HOVER & POSITION TRACKER WITH AUTO DODGE ==================== --
+SafeConnect(RunService.Heartbeat, function(dt)
+    if not Config.AutoFarm or IsRespawning or IsOpeningChest or IsProcessingEventNpc or IsBuyingPotions or IsSellingGear or IsKnockingHalloween then return end
+    local root, hum = GetChar()
+    if not root or not hum or hum.Health <= 0 then return end
+
+    -- Guard: Never position or snap towards monsters if player is inside Town
+    local inTown = LocalPlayer:GetAttribute("InTown") == true or (root.Position.Z >= -64.25 and root.Position.Z <= 500)
+    if inTown then
+        CurrentTarget = nil
+        return
+    end
+
+    -- 1. 100% Auto Dodge Position Override (Evasive Snap outside Danger Zone)
+    if Config.AutoDodge and DodgeActiveUntil and os.clock() < DodgeActiveUntil then
+        if DodgeTargetPos then
+            EnsureHover(root)
+            local _, curYaw, _ = root.CFrame:ToOrientation()
+            local targetCF = CFrame.new(DodgeTargetPos) * CFrame.Angles(0, curYaw, 0)
+            local dist = (root.Position - DodgeTargetPos).Magnitude
+            if dist > 35 then
+                root.CFrame = targetCF
+            else
+                local alpha = math.clamp(dt * 20, 0.40, 0.88)
+                root.CFrame = root.CFrame:Lerp(targetCF, alpha)
+            end
+            root.AssemblyLinearVelocity = Vector3.zero
+            root.AssemblyAngularVelocity = Vector3.zero
+            if HoverBG then HoverBG.CFrame = targetCF end
+            if HoverBV then HoverBV.Velocity = Vector3.zero end
+            return
+        end
+    end
+
+    -- 2. Normal Combat Positioning (Stand Behind Monster or Hover)
+    local target = CurrentTarget
+    if target and target.Parent then
+        local hp = tonumber(target:GetAttribute("HP")) or 0
+        local mobCF, mobPart = GetMobCFrame(target)
+        if hp > 0 and mobCF then
+            -- Guard: If target is unreasonably far (> 250 studs), drop target instead of teleport-fighting
+            local distToMob = (root.Position - mobCF.Position).Magnitude
+            if distToMob > 250 then
+                CurrentTarget = nil
+                return
+            end
+            EnsureHover(root)
+
+            local extSize = GetCachedMobExtents(target)
+            local mobPos = mobCF.Position
+            local targetPos, targetCF
+
+            if Config.StandBehind then
+                -- Stand strictly behind the monster's back at ground level
+                local mobRadius = math.max(extSize.X, extSize.Z) / 2
+                local standDist = math.clamp(mobRadius + (Config.StandBehindDist or 3.8), 3.5, 8.5)
+
+                local mobLook = mobCF.LookVector
+                local flatLook = Vector3.new(mobLook.X, 0, mobLook.Z)
+                if flatLook.Magnitude < 0.1 then
+                    flatLook = Vector3.new(0, 0, -1)
+                else
+                    flatLook = flatLook.Unit
+                end
+
+                local behindOffset = -flatLook * standDist
+                targetPos = Vector3.new(mobPos.X + behindOffset.X, mobPos.Y + 0.2 + (TemporaryDodgeHeight or 0), mobPos.Z + behindOffset.Z)
+                targetCF = CFrame.lookAt(targetPos, Vector3.new(mobPos.X, targetPos.Y, mobPos.Z))
+            else
+                -- Legacy Hover mode
+                local mobHalfHeight = (extSize.Y / 2) + 4.5
+                local safeHeight = math.max(Config.SafeHeight or 8.5, mobHalfHeight) + (TemporaryDodgeHeight or 0)
+                targetPos = Vector3.new(mobPos.X, mobPos.Y + safeHeight, mobPos.Z)
+                local lookDir = Vector3.new(mobPos.X - targetPos.X, 0, mobPos.Z - targetPos.Z)
+                if lookDir.Magnitude > 0.1 then
+                    targetCF = CFrame.lookAt(targetPos, mobPos)
+                else
+                    local _, curYaw, _ = root.CFrame:ToOrientation()
+                    targetCF = CFrame.new(targetPos) * CFrame.Angles(0, curYaw, 0)
+                end
+            end
+
+            local dist = (root.Position - targetPos).Magnitude
+            if dist > 55 then
+                root.CFrame = targetCF
+            else
+                local alpha = math.clamp(dt * 20, 0.40, 0.88)
+                root.CFrame = root.CFrame:Lerp(targetCF, alpha)
+            end
+
+            root.AssemblyLinearVelocity = Vector3.zero
+            root.AssemblyAngularVelocity = Vector3.zero
+            if HoverBG then HoverBG.CFrame = targetCF end
+            if HoverBV then HoverBV.Velocity = Vector3.zero end
+            return
+        end
+    end
+
+    EnsureHover(root)
+    root.AssemblyLinearVelocity = Vector3.zero
+    root.AssemblyAngularVelocity = Vector3.zero
+    if HoverBV then HoverBV.Velocity = Vector3.zero end
+end)
+
+-- ==================== ROCK-SOLID KAI TAN PROGRESSION LOOP WITH BOSS GATING ==================== --
+task.spawn(function()
+    local targetReached = false
+
+    while true do
+        if _G.KaiTan_ActiveInstance ~= ScriptInstanceId then break end
+        task.wait(1.5)
+        if not Config.AutoFarm then continue end
+
+        local curLevel = GetPlayerLevel()
+
+        -- Check Max Target Level Reached
+        if curLevel >= Config.TargetLevel and not targetReached then
+            targetReached = true
+            SendWebhook("🎉 ไก่ตันสำเร็จแล้ว! (Max Level Reached)", string.format("ไอดี %s เลเวลตัน %d เรียบร้อยแล้ว!", LocalPlayer.Name, curLevel), 0xFFD700)
+            print("[spinach] Kai Tan Reached Target Level: " .. curLevel)
+        end
+
+        CheckRetreatGoal()
+
+        -- Check Zone Transition (Verified against BossGatesJson & Death Retreat)
+        local targetZoneId, targetName = GetEffectiveTargetZone(curLevel)
+        local root = GetChar()
+        local inTown = false
+        local inClearedBossRoom = false
+        local curZId = nil
+
+        if root then
+            local curZ = root.Position.Z
+            inTown = (curZ >= -64.25 and curZ <= 500)
+            curZId = GetZoneAtZ(curZ)
+            local gates = GetUnlockedGates()
+
+            -- Detect if standing in a boss room where the boss has already been cleared
+            for _, info in ipairs(LevelProgression) do
+                if info.isBossRoom and (CurrentZoneId == info.zoneId or curZId == info.zoneId) then
+                    if gates[info.bossGateId] == true then
+                        inClearedBossRoom = true
+                        break
+                    end
+                end
+            end
+        end
+
+        local isBusy = IsRespawning or IsOpeningChest or IsProcessingEventNpc or IsBuyingPotions or IsSellingGear or IsKnockingHalloween
+        local wrongZone = (CurrentZoneId ~= targetZoneId or (curZId and curZId ~= targetZoneId) or inTown or inClearedBossRoom)
+
+        if wrongZone and not isBusy and InitialEventSetupDone then
+            TeleportTo(targetZoneId, targetName)
+            print(string.format("[spinach] Progressing to %s for Level %d (Verified Unlocked/Boss)", targetName, curLevel))
+            task.wait(1.0)
+        end
+    end
+end)
+
+-- Listen for Boss / Gate Unlocks in Real-Time
+SafeConnect(LocalPlayer:GetAttributeChangedSignal("BossGatesJson"), function()
+    if Config.AutoFarm then
+        task.delay(0.2, function()
+            local curLvl = GetPlayerLevel()
+            local targetZoneId, targetName = GetEffectiveTargetZone(curLvl)
+            CurrentTarget = nil
+            if CurrentZoneId ~= targetZoneId or true then
+                TeleportTo(targetZoneId, targetName)
+                print(string.format("[spinach] 🏆 Boss Defeated! Gate unlocked, transitioning immediately to %s", targetName))
+                SendWebhook("🏆 ปราบหัวหน้าบอสสำเร็จ ปลดล็อคโซนถัดไป!", string.format("ไอดี %s ปราบหัวหน้าบอสสำเร็จ! ประตูเปิดแล้ว กำลังไปฟาร์มต่อที่ %s", LocalPlayer.Name, targetName), 0xFFD700)
+            end
+        end)
+    end
+end)
+
+-- ==================== COMBAT & SKILLS SPAMMER ==================== --
+local LastTargetSent = nil
+local LastTargetTime = 0
+local SkillCooldowns = {}
+local CurrentSkillIndex = 1
+
+task.spawn(function()
+    while true do
+        if _G.KaiTan_ActiveInstance ~= ScriptInstanceId then break end
+        task.wait(0.06)
+        if Config.AutoFarm and not IsRespawning and not IsOpeningChest and not IsProcessingEventNpc and not IsBuyingPotions and not IsSellingGear and not IsKnockingHalloween then
+            local root, hum = GetChar()
+            if root and hum and hum.Health > 0 then
+                local inTown = LocalPlayer:GetAttribute("InTown") == true or (root.Position.Z >= -64.25 and root.Position.Z <= 500)
+                if inTown then
+                    CurrentTarget = nil
+                    LastTargetSent = nil
+                    continue
+                end
+
+                local mob = GetBestMonster()
+                CurrentTarget = mob
+
+                if mob and mob.Parent then
+                    local hp = tonumber(mob:GetAttribute("HP")) or 0
+                    if hp > 0 then
+                        local now = os.clock()
+                        local currentTargetVal = LocalPlayer:FindFirstChild("CurrentTarget")
+                        if currentTargetVal and currentTargetVal.Value ~= mob then
+                            currentTargetVal.Value = mob
+                        end
+
+                        if mob ~= LastTargetSent or (now - LastTargetTime) > 1.2 then
+                            LastTargetSent = mob
+                            LastTargetTime = now
+                            pcall(function()
+                                Remotes.SetTarget:FireServer(mob, false, true)
+                            end)
+                        end
+
+                        -- Intelligent, smooth skill rotation without flooding remotes
+                        if Config.AutoSkills and #CachedUsableSkills > 0 then
+                            local nowTime = os.clock()
+                            for _ = 1, 2 do
+                                local sId = CachedUsableSkills[CurrentSkillIndex]
+                                CurrentSkillIndex = (CurrentSkillIndex % #CachedUsableSkills) + 1
+                                local lastUsed = SkillCooldowns[sId] or 0
+                                if (nowTime - lastUsed) >= 0.32 then
+                                    SkillCooldowns[sId] = nowTime
+                                    pcall(function()
+                                        Remotes.UseSkill:FireServer(sId, mob)
+                                    end)
+                                    break
+                                end
+                            end
+                        end
+                    end
+                else
+                    CurrentTarget = nil
+                    LastTargetSent = nil
+                end
+            end
+        else
+            CurrentTarget = nil
+            LastTargetSent = nil
+        end
+    end
+end)
+
+-- ==================== SMART LOOT VACUUM (EVENT-DRIVEN ZERO LATENCY) ==================== --
+local function VacuumDrop(drop)
+    if not Config.AutoLoot or not drop then return end
+    local root = GetChar()
+    if not root then return end
+    pcall(function()
+        if drop:IsA("BasePart") then
+            if (root.Position - drop.Position).Magnitude <= 70 then
+                drop.CFrame = root.CFrame
+            end
+        elseif drop:IsA("Model") then
+            local p = drop:GetPivot().Position
+            if (root.Position - p).Magnitude <= 70 then
+                drop:PivotTo(root.CFrame)
+            end
+        end
+        Remotes.PickupDrop:FireServer(true)
+    end)
+end
+
+pcall(function()
+    local dropsFolder = workspace:WaitForChild("Drops", 10)
+    if dropsFolder then
+        SafeConnect(dropsFolder.ChildAdded, function(child)
+            task.defer(VacuumDrop, child)
+        end)
+    end
+end)
+
+task.spawn(function()
+    while true do
+        if _G.KaiTan_ActiveInstance ~= ScriptInstanceId then break end
+        task.wait(0.35)
+        if Config.AutoLoot then
+            local root = GetChar()
+            local dropsFolder = workspace:FindFirstChild("Drops")
+            if root and dropsFolder then
+                for _, drop in ipairs(dropsFolder:GetChildren()) do
+                    VacuumDrop(drop)
+                end
+            end
+            pcall(function()
+                Remotes.PickupDrop:FireServer(true)
+            end)
+        end
+    end
+end)
+
+-- ==================== PERIODIC CHEST OPENER ==================== --
+task.spawn(function()
+    while true do
+        if _G.KaiTan_ActiveInstance ~= ScriptInstanceId then break end
+        task.wait(1.5)
+        if Config.AutoFarm and Config.AutoOpenChests and not IsOpeningChest then
+            OpenNearbyRelicBox()
+        end
+    end
+end)
+
+-- ==================== PERIODIC JUNK SELLER & GEAR CHECK ==================== --
+task.spawn(function()
+    while true do
+        if _G.KaiTan_ActiveInstance ~= ScriptInstanceId then break end
+        task.wait(8.0)
+        if Config.AutoSellJunk then
+            pcall(function() Remotes.ShopSellJunk:FireServer() end)
+        end
+        if Config.AutoEquipBest then
+            EquipBestGear()
+        end
+        if Config.AutoInsertCards then
+            ProcessAutoInsertCards()
+        end
+    end
+end)
+
+-- ==================== AUTO CLAIM REWARDS & ADVENTURE BOOK ==================== --
+local function ClaimAdventureBook()
+    if not Config.AutoClaimAdventureBook then return end
+    pcall(function()
+        local Shared = ReplicatedStorage:FindFirstChild("Shared")
+        if not Shared or not Shared:FindFirstChild("AchievementData") then return end
+        local AchievementData = require(Shared.AchievementData)
+
+        local achAttr = LocalPlayer:GetAttribute("AchieveJson")
+        if type(achAttr) ~= "string" then return end
+        local pData = HttpService:JSONDecode(achAttr)
+        local got = pData.Got or {}
+        local counters = pData.C or {}
+        local playerLevel = tonumber(LocalPlayer:GetAttribute("Level")) or 1
+
+        for _, def in ipairs(AchievementData.List) do
+            local id = def.Id
+            if not got[id] then
+                local val = (def.Type == "level") and playerLevel or (tonumber(counters[def.Type]) or 0)
+                if val >= def.Count then
+                    pcall(function()
+                        Remotes.AchieveAction:FireServer("claim", id, false)
+                    end)
+                    task.wait(0.04)
+                end
+            end
+        end
+    end)
+end
+
+local function ProcessOnlineRewards(rData)
+    local onData = rData.Online or {}
+    local gotOnline = {}
+    if type(onData.Got) == "table" then
+        for _, g in ipairs(onData.Got) do gotOnline[g] = true end
+    end
+
+    local sec = onData.Sec or 0
+    if onData.At then
+        sec = sec + math.min(math.max(0, workspace:GetServerTimeNow() - onData.At), 75)
+    end
+
+    local onlineThresholds = {
+        [1] = { sec = 300, min = 5 },
+        [2] = { sec = 900, min = 15 },
+        [3] = { sec = 1800, min = 30 },
+        [4] = { sec = 3600, min = 60 },
+        [5] = { sec = 7200, min = 120 },
+        [6] = { sec = 10800, min = 180 }
+    }
+
+    for idx = 1, 6 do
+        local th = onlineThresholds[idx]
+        if not gotOnline[idx] and sec >= th.sec then
+            pcall(function()
+                Remotes.RewardAction:FireServer("online", idx)
+                print(string.format("[spinach] Claimed Online Playtime Reward Slot %d (%d min)", idx, th.min))
+            end)
+            task.wait(0.1)
+        end
+    end
+end
+
+local function ProcessMonthlyCheckin(rData)
+    local Month = rData.Month
+    if type(Month) ~= "table" then return end
+
+    local today = Month.Today
+    local checkedDays = {}
+    if type(Month.Days) == "table" then
+        for _, d in ipairs(Month.Days) do checkedDays[d] = true end
+    end
+
+    -- 1. Check in today
+    if today and not checkedDays[today] then
+        pcall(function()
+            Remotes.RewardAction:FireServer("month", nil)
+            print(string.format("[spinach] Claimed Monthly Check-in for Day %d", today))
+        end)
+        task.wait(0.2)
+    end
+
+    -- 2. Claim Missed Days with Free Make-up Check-ins
+    local makeupLeft = Month.MakeupLeft or 0
+    if today and makeupLeft > 0 then
+        for d = 1, today - 1 do
+            if not checkedDays[d] and makeupLeft > 0 then
+                pcall(function()
+                    Remotes.RewardAction:FireServer("makeup", d)
+                    print(string.format("[spinach] Used Make-up Check-in for Day %d (Remaining: %d)", d, makeupLeft - 1))
+                end)
+                makeupLeft = makeupLeft - 1
+                checkedDays[d] = true
+                task.wait(0.2)
+            end
+        end
+    end
+
+    -- 3. Monthly Streak Milestones (7, 14, 21, 28 days based on game RewardData)
+    local daysCount = type(Month.Days) == "table" and #Month.Days or 0
+    local milesGot = {}
+    if type(Month.Miles) == "table" then
+        for _, m in ipairs(Month.Miles) do milesGot[m] = true end
+    end
+    local targetMilestones = {7, 14, 21, 28}
+    pcall(function()
+        local Shared = ReplicatedStorage:FindFirstChild("Shared")
+        if Shared and Shared:FindFirstChild("RewardData") then
+            local rd = require(Shared.RewardData)
+            if rd and rd.Milestones then
+                targetMilestones = {}
+                for _, mInfo in ipairs(rd.Milestones) do
+                    if mInfo.Days then table.insert(targetMilestones, mInfo.Days) end
+                end
+            end
+        end
+    end)
+    if not _G.KaiTan_ClaimedMilestones then _G.KaiTan_ClaimedMilestones = {} end
+    for _, reqDays in ipairs(targetMilestones) do
+        if not milesGot[reqDays] and not _G.KaiTan_ClaimedMilestones[reqDays] and daysCount >= reqDays then
+            _G.KaiTan_ClaimedMilestones[reqDays] = true
+            pcall(function()
+                Remotes.RewardAction:FireServer("mile", reqDays)
+                print(string.format("[spinach] Claimed Monthly Streak Milestone: %d Days", reqDays))
+            end)
+            task.wait(0.2)
+        end
+    end
+end
+
+local function Process8DayCheckin(rData)
+    local C8 = rData.C8
+    if type(C8) == "table" and C8.Can == true then
+        pcall(function()
+            Remotes.RewardAction:FireServer("c8", nil)
+            print(string.format("[spinach] Claimed 8-Day Check-in Reward (Day %s)", tostring(C8.Day or 1)))
+        end)
+        task.wait(0.1)
+    end
+end
+
+local function ClaimAllRewards()
+    if not Config.AutoClaimRewards then return end
+    pcall(function()
+        -- 1. Daily Gift & System Mail
+        pcall(function() Remotes.DailyClaim:FireServer() end)
+        pcall(function() Remotes.IntroGift:FireServer() end)
+        pcall(function() Remotes.MailAction:FireServer("claimAll") end)
+
+        -- 2. RewardsJson processing
+        local rewAttr = LocalPlayer:GetAttribute("RewardsJson")
+        if type(rewAttr) == "string" and rewAttr ~= "" then
+            local ok, rData = pcall(function() return HttpService:JSONDecode(rewAttr) end)
+            if ok and type(rData) == "table" then
+                ProcessMonthlyCheckin(rData)
+                Process8DayCheckin(rData)
+                ProcessOnlineRewards(rData)
+            end
+        end
+    end)
+end
+
+SafeConnect(LocalPlayer:GetAttributeChangedSignal("RewardsJson"), function()
+    task.delay(0.2, ClaimAllRewards)
+end)
+
+SafeConnect(LocalPlayer:GetAttributeChangedSignal("AchieveJson"), function()
+    task.delay(0.3, ClaimAdventureBook)
+end)
+
+task.spawn(function()
+    while true do
+        if _G.KaiTan_ActiveInstance ~= ScriptInstanceId then break end
+        task.wait(3.5)
+        if Config.AutoClaimRewards then
+            ClaimAllRewards()
+        end
+    end
+end)
+
+task.spawn(function()
+    while true do
+        if _G.KaiTan_ActiveInstance ~= ScriptInstanceId then break end
+        task.wait(5.0)
+        if Config.AutoClaimAdventureBook then
+            ClaimAdventureBook()
+        end
+    end
+end)
+
+task.defer(function()
+    task.wait(1.5)
+    ClaimAllRewards()
+    ClaimAdventureBook()
+end)
+
+-- ==================== AUTO LIKE & FOLLOW GROUP (LEVEL RACE EVENT) ==================== --
+local function ProcessAutoLikeAndGroupRewards(isInitialRun)
+    if not Config.AutoLikeAndGroup then
+        InitialEventSetupDone = true
+        return
+    end
+    if IsProcessingEventNpc and not isInitialRun then return end
+
+    local eventAttr = LocalPlayer:GetAttribute("EventJson")
+    local eventData = (type(eventAttr) == "string" and HttpService:JSONDecode(eventAttr)) or {}
+    local got = eventData.Got or {}
+    local liked = (eventData.Liked == true)
+    local group = (eventData.Group == true)
+    local pLvl = GetPlayerLevel()
+
+    local needsLikeOrGroup = not (liked and group)
+    local needsPet = false
+    local petAttr = LocalPlayer:GetAttribute("PetJson")
+    local pDec = (type(petAttr) == "string" and pcall(function() return HttpService:JSONDecode(petAttr) end) and HttpService:JSONDecode(petAttr)) or nil
+    if pDec and type(pDec.Owned) == "table" then
+        needsPet = (pDec.Owned["little_turtle"] ~= true)
+    else
+        needsPet = true
+    end
+
+    local pendingLevels = {}
+    for _, lvl in ipairs({5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 99}) do
+        if pLvl >= lvl and not got[tostring(lvl)] then
+            table.insert(pendingLevels, lvl)
+        end
+    end
+
+    if not isInitialRun then
+        if #pendingLevels == 0 then
+            InitialEventSetupDone = true
+            return
+        end
+    else
+        if not needsLikeOrGroup and not needsPet and #pendingLevels == 0 then
+            -- Already completed: ensure little_turtle is active
+            pcall(function()
+                if pDec and pDec.Active ~= "little_turtle" and pDec.Owned and pDec.Owned["little_turtle"] == true then
+                    Remotes.PetAction:FireServer("summon", "little_turtle")
+                end
+            end)
+            InitialEventSetupDone = true
+            IsProcessingEventNpc = false
+            return
+        end
+    end
+
+    -- Guard: Never abandon active boss fight to visit Ron
+    if CurrentTarget and CurrentTarget.Parent and IsBossMob(CurrentTarget) then
+        local bHp = tonumber(CurrentTarget:GetAttribute("HP")) or 0
+        if bHp > 0 then return end
+    end
+
+    IsProcessingEventNpc = true
+    print("[spinach] 🎁 Priority Step: AutoLikeAndGroup - Visiting Ron in Town to claim Pet & Rewards...")
+
+    local function DoClaimRoutine()
+        local claimOk, claimErr = pcall(function()
+            local ron = nil
+            for attempt = 1, 20 do
+                ron = (workspace:FindFirstChild("Map") and workspace.Map:FindFirstChild("Villagers") and workspace.Map.Villagers:FindFirstChild("Ron"))
+                     or CollectionService:GetTagged("EventNpc")[1]
+                if ron then break end
+                task.wait(0.2)
+            end
+            if not ron then
+                warn("[spinach] Ron NPC not found in Town!")
+                return
+            end
+
+            local root, hum
+            for attempt = 1, 25 do
+                root, hum = GetChar()
+                if root and hum and hum.Health > 0 then break end
+                task.wait(0.2)
+            end
+            if not root or not hum or hum.Health <= 0 then
+                return
+            end
+
+            local ronPos = ron:GetPivot().Position
+
+            -- Warp directly to Ron in Town
+            root.AssemblyLinearVelocity = Vector3.zero
+            root.AssemblyAngularVelocity = Vector3.zero
+            if HoverBV then HoverBV.Velocity = Vector3.zero end
+            root.CFrame = CFrame.new(ronPos + Vector3.new(0, 3, 4))
+            task.wait(0.3)
+
+            local prompt = ron:FindFirstChild("EventPrompt", true)
+            if prompt and fireproximityprompt then
+                pcall(function() fireproximityprompt(prompt) end)
+                task.wait(0.2)
+            end
+
+            -- 1. Auto Like
+            if not liked then
+                pcall(function() Remotes.EventNpcAction:FireServer("like") end)
+                task.wait(0.3)
+            end
+
+            -- 2. Auto Join & Follow Group
+            if not group and not _G.KaiTan_GroupPrompted then
+                _G.KaiTan_GroupPrompted = true
+                local GroupService = game:GetService("GroupService")
+                local inGroup = false
+                pcall(function() inGroup = LocalPlayer:IsInGroup(34187578) end)
+
+                if not inGroup then
+                    task.spawn(function()
+                        pcall(function() GroupService:PromptJoinAsync(34187578) end)
+                    end)
+                    task.wait(0.5)
+
+                    pcall(function()
+                        if CoreGui then
+                            local btn = CoreGui:FindFirstChild("1-Join Community", true)
+                            if btn then
+                                if GuiService then
+                                    pcall(function() GuiService.SelectedCoreObject = btn end)
+                                end
+                                task.wait(0.1)
+                                if VirtualInputManager then
+                                    VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.Return, false, game)
+                                    task.wait(0.04)
+                                    VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.Return, false, game)
+                                    task.wait(0.05)
+                                    VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.Space, false, game)
+                                    task.wait(0.04)
+                                    VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.Space, false, game)
+                                end
+                            end
+                        end
+                    end)
+                    task.wait(0.5)
+                end
+
+                pcall(function() Remotes.EventNpcAction:FireServer("checkGroup", true) end)
+                task.wait(0.4)
+            end
+
+            -- 3. Auto Claim Pet (Little Turtle)
+            if needsPet then
+                pcall(function()
+                    Remotes.EventNpcAction:FireServer("claimPet")
+                    task.wait(0.35)
+                    Remotes.EventNpcAction:FireServer("claimAll")
+                end)
+                task.wait(0.35)
+            end
+
+            -- 4. Auto Claim Milestone Level Race Rewards
+            for _, lvl in ipairs(pendingLevels) do
+                pcall(function() Remotes.EventNpcAction:FireServer("claim", lvl) end)
+                task.wait(0.12)
+            end
+
+            pcall(function() Remotes.EventNpcAction:FireServer("claimAll") end)
+            task.wait(0.3)
+
+            -- 5. Auto Summon / Equip Pet
+            pcall(function()
+                Remotes.PetAction:FireServer("summon", "little_turtle")
+            end)
+            task.wait(0.2)
+
+            print("[spinach] ✨ AutoLikeAndGroup completed! Free pet acquired and summoned.")
+            SendWebhook("🐢 รับสัตว์เลี้ยงสำเร็จ!", string.format("ไอดี %s รับเต่าน้อย (Little Turtle) และรางวัลกิจกรรมเรียบร้อยแล้ว!", LocalPlayer.Name), 0x00FF88)
+
+            -- 6. Auto-close Ron's event dialog & CoreGui Join Community prompt
+            pcall(function()
+                local pGui = LocalPlayer:FindFirstChild("PlayerGui")
+                if pGui then
+                    local hen = pGui:FindFirstChild("HuntEventNpc")
+                    if hen then hen.Enabled = false end
+                end
+                local ev = LocalPlayer:FindFirstChild("HuntEventNpc")
+                if ev and ev:IsA("BindableEvent") then ev:Fire("close") end
+
+                if CoreGui then
+                    local notNow = CoreGui:FindFirstChild("2-Not Now", true)
+                    if notNow and notNow:IsA("GuiButton") and notNow.Visible then
+                        UniversalClickButton(notNow)
+                    end
+
+                    for _, d in ipairs(CoreGui:GetDescendants()) do
+                        if d:IsA("GuiButton") and d.Visible then
+                            local t = (d:IsA("TextButton") and d.Text) or (d:FindFirstChildWhichIsA("TextLabel") and d:FindFirstChildWhichIsA("TextLabel").Text) or ""
+                            if t == "Not Now" or (d.Name == "CloseButton" and (d.Parent and d.Parent.Name:find("Prompt") or d.Parent:FindFirstChild("1-Join Community"))) then
+                                UniversalClickButton(d)
+                            end
+                        end
+                    end
+                end
+            end)
+            task.wait(0.2)
+        end)
+
+        if not claimOk then
+            warn("[spinach] AutoLikeAndGroup error: " .. tostring(claimErr))
+        end
+
+        -- Finish initial setup and transition to hunting zone (ALWAYS GUARANTEED)
+        InitialEventSetupDone = true
+        IsProcessingEventNpc = false
+        pcall(function()
+            local curLvl = GetPlayerLevel()
+            local targetZoneId, targetName = GetEffectiveTargetZone(curLvl)
+            TeleportTo(targetZoneId, targetName)
+        end)
+    end
+
+    task.spawn(DoClaimRoutine)
+end
+
+SafeConnect(LocalPlayer:GetAttributeChangedSignal("EventJson"), function()
+    task.delay(1.0, function() ProcessAutoLikeAndGroupRewards(false) end)
+end)
+
+SafeConnect(LocalPlayer:GetAttributeChangedSignal("Level"), function()
+    task.delay(1.5, function() ProcessAutoLikeAndGroupRewards(false) end)
+end)
+
+task.spawn(function()
+    while true do
+        if _G.KaiTan_ActiveInstance ~= ScriptInstanceId then break end
+        task.wait(45)
+        if Config.AutoLikeAndGroup and InitialEventSetupDone then
+            local eventAttr = LocalPlayer:GetAttribute("EventJson")
+            local eventData = (type(eventAttr) == "string" and HttpService:JSONDecode(eventAttr)) or {}
+            local got = eventData.Got or {}
+            local pLvl = GetPlayerLevel()
+            local hasPending = false
+            for _, lvl in ipairs({5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 99}) do
+                if pLvl >= lvl and not got[tostring(lvl)] then
+                    hasPending = true
+                    break
+                end
+            end
+            if hasPending then
+                ProcessAutoLikeAndGroupRewards(false)
+            end
+        end
+    end
+end)
+
+-- Execute AutoLikeAndGroup as Background Task
+task.spawn(function()
+    task.wait(0.5)
+    ProcessAutoLikeAndGroupRewards(true)
+end)
+
+-- ==================== SPEED POTION SYSTEM ==================== --
+local SpeedPotions = {
+    {
+        tier = 3,
+        itemId = "berserk_potion",
+        buffId = "haste5",
+        minLevel = 85,
+        cost = 5000,
+        name = "Berserk Potion (ASPD III)"
+    },
+    {
+        tier = 2,
+        itemId = "awakening_potion",
+        buffId = "haste4",
+        minLevel = 40,
+        cost = 3000,
+        name = "Awakening Potion (ASPD II)"
+    },
+    {
+        tier = 1,
+        itemId = "concentration_potion",
+        buffId = "haste3",
+        minLevel = 0,
+        cost = 1000,
+        name = "Concentration Potion (ASPD I)"
+    }
+}
+
+local function GetActiveHasteBuff()
+    local buffsRaw = LocalPlayer:GetAttribute("BuffsJson")
+    if type(buffsRaw) ~= "string" or buffsRaw == "" then return nil, 0, 0 end
+    local ok, buffs = pcall(function() return HttpService:JSONDecode(buffsRaw) end)
+    if not ok or type(buffs) ~= "table" then return nil, 0, 0 end
+
+    local now = workspace:GetServerTimeNow()
+    for _, b in ipairs(buffs) do
+        local rem = (tonumber(b.EndsAt) or 0) - now
+        if rem > 3.0 then
+            if b.Id == "haste5" then
+                return "haste5", 3, rem
+            elseif b.Id == "haste4" then
+                return "haste4", 2, rem
+            elseif b.Id == "haste3" then
+                return "haste3", 1, rem
+            end
+        end
+    end
+    return nil, 0, 0
+end
+
+local function GetBestEligibleSpeedPotion()
+    local curLevel = GetPlayerLevel()
+    local itemsRaw = LocalPlayer:GetAttribute("ItemsJson")
+    local items = (type(itemsRaw) == "string" and HttpService:JSONDecode(itemsRaw)) or {}
+
+    for _, pot in ipairs(SpeedPotions) do
+        if curLevel >= pot.minLevel then
+            local count = tonumber(items[pot.itemId]) or 0
+            if count > 0 then
+                return pot, count
+            end
+        end
+    end
+    return nil, 0
+end
+
+local function GetBestSpeedPotionToBuy(curLevel)
+    for _, pot in ipairs(SpeedPotions) do
+        if curLevel >= pot.minLevel then
+            return pot
+        end
+    end
+    return SpeedPotions[#SpeedPotions]
+end
+
+local function ProcessAutoSpeedPotion()
+    if not Config.AutoSpeedPotion then return end
+    local root, hum = GetChar()
+    if not root or not hum or hum.Health <= 0 or IsRespawning then return end
+
+    local now = os.clock()
+    if now - LastSpeedPotionUseTime < 2.0 then return end
+
+    local activeBuff, activeTier, remTime = GetActiveHasteBuff()
+    local bestPot, count = GetBestEligibleSpeedPotion()
+
+    if not bestPot then
+        return
+    end
+
+    -- If active buff is already equal or higher tier with time remaining, do not waste
+    if activeBuff and activeTier >= bestPot.tier then
+        return
+    end
+
+    LastSpeedPotionUseTime = now
+    Remotes.UseItem:FireServer(bestPot.itemId)
+    print(string.format("[spinach] Used Speed Potion: %s (Tier %d, Remaining in bag: %d, Active Buff: %s)",
+        bestPot.name, bestPot.tier, count - 1, activeBuff or "None"))
+end
+
+-- ==================== AUTO BUY POTIONS SYSTEM ==================== --
+local function GetBestHpPotionForLevel(lvl)
+    if lvl <= 25 then
+        return "red_potion", 20
+    elseif lvl <= 50 then
+        return "red_potion_m", 100
+    else
+        return "white_potion", 600
+    end
+end
+
+local function ProcessAutoBuyPotions()
+    if not Config.AutoBuyPotions or IsBuyingPotions or IsProcessingEventNpc then return end
+    local now = os.clock()
+    if now - LastPotionBuyTime < 8.0 then return end
+
+    local itemsRaw = LocalPlayer:GetAttribute("ItemsJson")
+    local items = (type(itemsRaw) == "string" and HttpService:JSONDecode(itemsRaw)) or {}
+    local silver = tonumber(LocalPlayer:GetAttribute("Silver")) or 0
+
+    local curLvl = GetPlayerLevel()
+    local targetHpPot, hpPotCost = GetBestHpPotionForLevel(curLvl)
+    local curHpPotCount = tonumber(items[targetHpPot]) or 0
+    local curSpPotCount = tonumber(items["blue_potion"]) or 0
+
+    local needHp = 0
+    if curHpPotCount < (Config.MinHpPotions or 5) then
+        needHp = math.max(0, (Config.TargetHpPotions or 100) - curHpPotCount)
+    end
+
+    local needSp = 0
+    if curSpPotCount < (Config.MinSpPotions or 5) then
+        needSp = math.max(0, (Config.TargetSpPotions or 100) - curSpPotCount)
+    end
+
+    local needSpeed = 0
+    local targetSpeedPot = nil
+    local speedPotCost = 0
+    if Config.AutoBuySpeedPotion then
+        local potInfo = GetBestSpeedPotionToBuy(curLvl)
+        if potInfo then
+            targetSpeedPot = potInfo.itemId
+            speedPotCost = potInfo.cost
+            local curSpeedPotCount = tonumber(items[targetSpeedPot]) or 0
+            if curSpeedPotCount < (Config.MinSpeedPotions or 1) then
+                needSpeed = math.max(0, (Config.TargetSpeedPotions or 3) - curSpeedPotCount)
+            end
+        end
+    end
+
+    if needHp <= 0 and needSp <= 0 and needSpeed <= 0 then return end
+
+    -- Guard: Never abandon an active boss fight to buy potions
+    if CurrentTarget and CurrentTarget.Parent and IsBossMob(CurrentTarget) then
+        local bHp = tonumber(CurrentTarget:GetAttribute("HP")) or 0
+        if bHp > 0 then
+            return
+        end
+    end
+
+    -- Check if affordable
+    if silver < hpPotCost and silver < 200 and silver < speedPotCost then return end
+
+    -- Budget allocation if low on silver
+    local totalCost = (needHp * hpPotCost) + (needSp * 200) + (needSpeed * speedPotCost)
+    if totalCost > silver then
+        local hpBudget = math.floor(silver * 0.50)
+        local spBudget = math.floor(silver * 0.25)
+        local speedBudget = silver - hpBudget - spBudget
+
+        needHp = math.min(needHp, math.floor(hpBudget / hpPotCost))
+        needSp = math.min(needSp, math.floor(spBudget / 200))
+        if speedPotCost > 0 then
+            needSpeed = math.min(needSpeed, math.floor(speedBudget / speedPotCost))
+        else
+            needSpeed = 0
+        end
+    end
+
+    if needHp <= 0 and needSp <= 0 and needSpeed <= 0 then return end
+
+    IsBuyingPotions = true
+    LastPotionBuyTime = now
+
+    task.spawn(function()
+        pcall(function()
+            local root = GetChar()
+            if not root then return end
+
+            local savedZoneId = CurrentZoneId
+            local savedZoneName = CurrentZoneName
+
+            print(string.format("[spinach] Low potions! Visiting Merchant in Town (Need %d %s, %d Blue Potion, %d %s)",
+                needHp, targetHpPot, needSp, needSpeed, targetSpeedPot or "None"))
+
+            -- Teleport to Town merchant
+            Remotes.WarpTo:FireServer("Town")
+            root.AssemblyLinearVelocity = Vector3.zero
+            root.AssemblyAngularVelocity = Vector3.zero
+            root.CFrame = CFrame.new(-50.37, 5.0, 30.46)
+            task.wait(0.65)
+
+            -- Confirm proximity to merchant
+            local merchant = workspace:FindFirstChild("Map") and workspace.Map.NPCs:FindFirstChild("merchant")
+            if merchant and merchant.PrimaryPart then
+                root.CFrame = merchant.PrimaryPart.CFrame + Vector3.new(0, 1.5, 2.0)
+            else
+                root.CFrame = CFrame.new(-50.37, 5.0, 30.46)
+            end
+            root.AssemblyLinearVelocity = Vector3.zero
+            -- 1. Sell junk materials and unequipped equipment while at merchant
+            pcall(function() Remotes.ShopSellJunk:FireServer() end)
+            task.wait(0.1)
+            if Config.AutoSellGear then
+                pcall(function()
+                    local gearsToSell = GetGearToSell()
+                    if #gearsToSell > 0 then
+                        Remotes.BagSell:FireServer(gearsToSell)
+                        local many = {}
+                        for _, r in ipairs(gearsToSell) do table.insert(many, { r, 1 }) end
+                        local ShopSellMany = Remotes:FindFirstChild("ShopSellMany")
+                        if ShopSellMany then ShopSellMany:FireServer(many) end
+                        print(string.format("[spinach] Auto-sold %d unequipped equipment items during Merchant visit", #gearsToSell))
+                    end
+                end)
+            end
+            task.wait(0.15)
+
+            -- Purchase HP Potions
+            while needHp > 0 do
+                local batch = math.min(needHp, 10)
+                Remotes.ShopBuy:FireServer(targetHpPot, batch)
+                needHp = needHp - batch
+                task.wait(0.08)
+            end
+
+            -- Purchase SP Potions
+            while needSp > 0 do
+                local batch = math.min(needSp, 10)
+                Remotes.ShopBuy:FireServer("blue_potion", batch)
+                needSp = needSp - batch
+                task.wait(0.08)
+            end
+
+            -- Purchase Speed Potions
+            if targetSpeedPot and needSpeed > 0 then
+                while needSpeed > 0 do
+                    local batch = math.min(needSpeed, 5)
+                    Remotes.ShopBuy:FireServer(targetSpeedPot, batch)
+                    needSpeed = needSpeed - batch
+                    task.wait(0.08)
+                end
+            end
+
+            task.wait(0.3)
+
+            -- Configure auto drink potion attributes
+            pcall(function()
+                Remotes.SetSettings:FireServer("PotionHpNow", targetHpPot)
+                Remotes.SetSettings:FireServer("PotionSpNow", "blue_potion")
+                Remotes.SetSettings:FireServer("PotionHpPercent", 60)
+                Remotes.SetSettings:FireServer("PotionSpPercent", 30)
+            end)
+
+            -- Auto drink speed potion immediately if buff is missing
+            ProcessAutoSpeedPotion()
+
+            print("[spinach] Potions restocked successfully! Returning to hunting zone...")
+
+            -- Warp back to hunting zone (always target the latest effective zone)
+            local targetZoneId, targetName = GetEffectiveTargetZone(GetPlayerLevel())
+            TeleportTo(targetZoneId, targetName)
+            task.wait(0.6)
+            CheckRetreatGoal()
+        end)
+        IsBuyingPotions = false
+    end)
+end
+
+-- ==================== AUTO SELL EQUIPMENT SYSTEM (BAG FULL) ==================== --
+local function GetGearToSell()
+    local gearRaw = LocalPlayer:GetAttribute("GearJson")
+    if type(gearRaw) ~= "string" or gearRaw == "" then return {} end
+    local ok1, gears = pcall(function() return HttpService:JSONDecode(gearRaw) end)
+    if not ok1 or type(gears) ~= "table" then return {} end
+
+    local equipRaw = LocalPlayer:GetAttribute("EquipJson")
+    local equipped = (type(equipRaw) == "string" and HttpService:JSONDecode(equipRaw)) or {}
+    local eqMap = {}
+    for _, ref in pairs(equipped) do eqMap[ref] = true end
+
+    local refineRaw = LocalPlayer:GetAttribute("RefineJson")
+    local refined = (type(refineRaw) == "string" and HttpService:JSONDecode(refineRaw)) or {}
+
+    local locksRaw = LocalPlayer:GetAttribute("LocksJson")
+    local locked = (type(locksRaw) == "string" and HttpService:JSONDecode(locksRaw)) or {}
+
+    local maxRarity = Config.SellGearMaxRarity or 4
+    local toSell = {}
+
+    for ref, gData in pairs(gears) do
+        if not eqMap[ref] and not locked[ref] and (tonumber(refined[ref]) or 0) <= 0 then
+            local r = tonumber(gData.R) or 0
+            if r <= maxRarity then
+                table.insert(toSell, ref)
+            end
+        end
+    end
+
+    return toSell
+end
+
+local function ProcessAutoSellGear(force)
+    if not Config.AutoSellGear or IsSellingGear or IsBuyingPotions or IsProcessingEventNpc then return end
+
+    local used = tonumber(LocalPlayer:GetAttribute("BagSlotsUsed")) or 0
+    local maxSlots = tonumber(LocalPlayer:GetAttribute("BagSlotsMax")) or 120
+    local freeSlots = maxSlots - used
+    local ratio = maxSlots > 0 and (used / maxSlots) or 0
+
+    local weight = tonumber(LocalPlayer:GetAttribute("Weight")) or 0
+    local maxWeight = tonumber(LocalPlayer:GetAttribute("MaxWeight")) or 1
+    local weightRatio = maxWeight > 0 and (weight / maxWeight) or 0
+
+    local thresholdRatio = Config.BagFullThreshold or 0.80
+    local minFree = Config.MinFreeBagSlots or 15
+
+    local isNearFull = (freeSlots <= minFree) or (ratio >= thresholdRatio) or (weightRatio >= 0.80)
+    if not force and not isNearFull then return end
+
+    local now = os.clock()
+    if not force and (now - LastGearSellTime < 10.0) then return end
+
+    -- Guard: Never abandon active boss fight to sell gear
+    if CurrentTarget and CurrentTarget.Parent and IsBossMob(CurrentTarget) then
+        local bHp = tonumber(CurrentTarget:GetAttribute("HP")) or 0
+        if bHp > 0 then return end
+    end
+
+    -- Equip best gear and cards first before selling
+    if Config.AutoEquipBest then
+        pcall(EquipBestGear)
+        task.wait(0.2)
+    end
+    if Config.AutoInsertCards then
+        pcall(ProcessAutoInsertCards)
+        task.wait(0.2)
+    end
+
+    local gearList = GetGearToSell()
+    -- CRITICAL FIX: If bag is near full or heavy, proceed to Town even if gearList is empty,
+    -- because bag could be full of monster drop materials, junk, etc.!
+    if #gearList == 0 and not force and not isNearFull then return end
+
+    IsSellingGear = true
+    LastGearSellTime = now
+
+    task.spawn(function()
+        pcall(function()
+            local root = GetChar()
+            if not root then return end
+
+            local savedZoneId = CurrentZoneId
+            local savedZoneName = CurrentZoneName
+
+            print(string.format("[spinach] Bag is almost full (%d/%d used, %d free slots, weight %.0f%%)! Visiting Merchant to sell %d equipment items & junk...",
+                used, maxSlots, freeSlots, weightRatio * 100, #gearList))
+
+            -- Teleport to Town merchant
+            Remotes.WarpTo:FireServer("Town")
+            root.AssemblyLinearVelocity = Vector3.zero
+            root.AssemblyAngularVelocity = Vector3.zero
+            root.CFrame = CFrame.new(-50.37, 5.0, 30.46)
+            task.wait(0.65)
+
+            -- Confirm proximity to merchant
+            local merchant = workspace:FindFirstChild("Map") and workspace.Map:FindFirstChild("NPCs") and workspace.Map.NPCs:FindFirstChild("merchant")
+            if merchant and merchant.PrimaryPart then
+                root.CFrame = merchant.PrimaryPart.CFrame + Vector3.new(0, 1.5, 2.0)
+            else
+                root.CFrame = CFrame.new(-50.37, 5.0, 30.46)
+            end
+            root.AssemblyLinearVelocity = Vector3.zero
+            task.wait(0.3)
+
+            -- 1. Sell all monster junk materials
+            pcall(function() Remotes.ShopSellJunk:FireServer() end)
+            task.wait(0.2)
+
+            -- 2. Sell equipment items (BagSell in batches of 40)
+            if #gearList > 0 then
+                for i = 1, #gearList, 40 do
+                    local batch = {}
+                    for j = i, math.min(i + 39, #gearList) do
+                        table.insert(batch, gearList[j])
+                    end
+                    pcall(function() Remotes.BagSell:FireServer(batch) end)
+                    task.wait(0.15)
+                end
+            end
+
+            -- 3. Also call ShopSellJunk again after selling gear
+            pcall(function() Remotes.ShopSellJunk:FireServer() end)
+            task.wait(0.2)
+
+            -- 4. Check if potions need restocking while already in town
+            if Config.AutoBuyPotions then
+                pcall(ProcessAutoBuyPotions)
+            end
+
+            -- 5. Dismiss WeightAlert Toast if open
+            pcall(function()
+                local pGui = LocalPlayer:FindFirstChild("PlayerGui")
+                local wa = pGui and pGui:FindFirstChild("LumiWeightAlert")
+                if wa then
+                    for _, d in ipairs(wa:GetDescendants()) do
+                        if d:IsA("Frame") and d.Visible then d.Visible = false end
+                    end
+                end
+            end)
+
+            print(string.format("[spinach] Equipment & junk sold successfully! Returning to %s...", savedZoneName or "hunting zone"))
+
+            -- Warp back to hunting zone (always target the latest effective zone)
+            local targetZoneId, targetName = GetEffectiveTargetZone(GetPlayerLevel())
+            TeleportTo(targetZoneId, targetName)
+            task.wait(0.6)
+        end)
+        IsSellingGear = false
+    end)
+end
+
+SafeConnect(LocalPlayer:GetAttributeChangedSignal("BagSlotsUsed"), function()
+    task.delay(1.0, function() ProcessAutoSellGear(false) end)
+end)
+
+SafeConnect(LocalPlayer:GetAttributeChangedSignal("Weight"), function()
+    task.delay(1.0, function() ProcessAutoSellGear(false) end)
+end)
+
+SafeConnect(LocalPlayer:GetAttributeChangedSignal("ItemsJson"), function()
+    CheckRetreatGoal()
+    task.delay(0.3, ProcessAutoSpeedPotion)
+    task.delay(0.7, function()
+        if Config.AutoHalloweenKnock then
+            ProcessAutoHalloweenKnock(false)
+        end
+    end)
+    task.delay(1.5, ProcessAutoBuyPotions)
+end)
+
+SafeConnect(LocalPlayer:GetAttributeChangedSignal("BuffsJson"), function()
+    task.delay(0.2, ProcessAutoSpeedPotion)
+end)
+
+SafeConnect(LocalPlayer:GetAttributeChangedSignal("Level"), function()
+    task.delay(0.5, ProcessAutoSpeedPotion)
+end)
+
+task.spawn(function()
+    while true do
+        if _G.KaiTan_ActiveInstance ~= ScriptInstanceId then break end
+        task.wait(2.5)
+        if Config.AutoFarm and Config.AutoSpeedPotion then
+            ProcessAutoSpeedPotion()
+        end
+    end
+end)
+
+task.spawn(function()
+    while true do
+        if _G.KaiTan_ActiveInstance ~= ScriptInstanceId then break end
+        task.wait(6)
+        if Config.AutoFarm and Config.AutoBuyPotions then
+            ProcessAutoBuyPotions()
+        end
+        if Config.AutoFarm and Config.AutoSellGear then
+            ProcessAutoSellGear(false)
+        end
+        if Config.AutoHalloweenKnock then
+            ProcessAutoHalloweenKnock(false)
+        end
+    end
+end)
+
+-- ==================== HUD INTERFACE ==================== --
+pcall(function()
+    SafeDestroyGui("KaiTan_HUD")
+    SafeDestroyGui("KaiTan_MobileToggle")
+
+    local targetParent = GetSafeGuiParent()
+
+    local sg = Instance.new("ScreenGui")
+    sg.Name = "KaiTan_HUD"
+    sg.ResetOnSpawn = false
+    sg.DisplayOrder = 9999
+    sg.IgnoreGuiInset = true
+    pcall(function()
+        if syn and type(syn) == "table" and syn.protect_gui then
+            syn.protect_gui(sg)
+        end
+    end)
+    sg.Parent = targetParent
+
+    -- Fullscreen Black Screen Overlay for Low CPU Mode
+    local blackOverlay = Instance.new("Frame")
+    blackOverlay.Name = "LowCPU_BlackOverlay"
+    blackOverlay.Size = UDim2.new(1, 0, 1, 0)
+    blackOverlay.Position = UDim2.new(0, 0, 0, 0)
+    blackOverlay.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    blackOverlay.BorderSizePixel = 0
+    blackOverlay.ZIndex = 0
+    blackOverlay.Visible = (Config.LowCPU == true)
+    blackOverlay.Parent = sg
+    LowCPUBlackFrame = blackOverlay
+
+    -- Main Container (Glassmorphic Card)
+    local main = Instance.new("Frame")
+    main.Name = "MainCard"
+    main.Size = UDim2.new(0, 270, 0, 396)
+    main.Position = IsMobilePlatform and UDim2.new(0, 16, 0.12, 0) or UDim2.new(0, 18, 0.32, 0)
+    main.BackgroundColor3 = Color3.fromRGB(15, 17, 24)
+    main.BackgroundTransparency = 0.08
+    main.BorderSizePixel = 0
+    main.Active = true
+    main.Draggable = false
+    main.ClipsDescendants = true
+    main.ZIndex = 1
+    main.Visible = true
+    main.Parent = sg
+
+    -- Floating Mobile Toggle Button (Draggable & Touch Friendly)
+    if Config.MobileToggleButton ~= false then
+        local toggleSg = Instance.new("ScreenGui")
+        toggleSg.Name = "KaiTan_MobileToggle"
+        toggleSg.ResetOnSpawn = false
+        toggleSg.DisplayOrder = 10000
+        toggleSg.IgnoreGuiInset = true
+        pcall(function()
+            if syn and type(syn) == "table" and syn.protect_gui then
+                syn.protect_gui(toggleSg)
+            end
+        end)
+        toggleSg.Parent = targetParent
+
+        local floatBtn = Instance.new("TextButton")
+        floatBtn.Name = "FloatingToggleBtn"
+        floatBtn.Size = UDim2.new(0, 42, 0, 42)
+        floatBtn.Position = IsMobilePlatform and UDim2.new(0, 14, 0.45, 0) or UDim2.new(0, 14, 0.25, 0)
+        floatBtn.BackgroundColor3 = Color3.fromRGB(15, 17, 24)
+        floatBtn.BackgroundTransparency = 0.12
+        floatBtn.BorderSizePixel = 0
+        floatBtn.Font = Enum.Font.GothamBold
+        floatBtn.TextSize = 13
+        floatBtn.TextColor3 = Color3.fromRGB(0, 255, 178)
+        floatBtn.Text = "SH"
+        floatBtn.Active = true
+        floatBtn.AutoButtonColor = true
+        floatBtn.Parent = toggleSg
+
+        local floatCorner = Instance.new("UICorner")
+        floatCorner.CornerRadius = UDim.new(1, 0)
+        floatCorner.Parent = floatBtn
+
+        local floatStroke = Instance.new("UIStroke")
+        floatStroke.Color = Color3.fromRGB(0, 255, 178)
+        floatStroke.Thickness = 1.6
+        floatStroke.Transparency = 0.15
+        floatStroke.Parent = floatBtn
+
+        local floatGrad = Instance.new("UIGradient")
+        floatGrad.Color = ColorSequence.new({
+            ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 255, 178)),
+            ColorSequenceKeypoint.new(1, Color3.fromRGB(160, 90, 255))
+        })
+        floatGrad.Parent = floatStroke
+
+        -- Smooth Floating Button Dragging
+        local fDragging = false
+        local fDragStart, fStartPos
+
+        floatBtn.InputBegan:Connect(function(input)
+            if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+                fDragging = true
+                fDragStart = input.Position
+                fStartPos = floatBtn.Position
+
+                local conn
+                conn = input.Changed:Connect(function()
+                    if input.UserInputState == Enum.UserInputState.End then
+                        fDragging = false
+                        if conn then conn:Disconnect() end
+                    end
+                end)
+            end
+        end)
+
+        UserInputService.InputChanged:Connect(function(input)
+            if fDragging and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+                local delta = input.Position - fDragStart
+                floatBtn.Position = UDim2.new(
+                    fStartPos.X.Scale,
+                    fStartPos.X.Offset + delta.X,
+                    fStartPos.Y.Scale,
+                    fStartPos.Y.Offset + delta.Y
+                )
+            end
+        end)
+
+        local floatDebounce = false
+        local function toggleFromFloat()
+            if floatDebounce then return end
+            floatDebounce = true
+            task.delay(0.2, function() floatDebounce = false end)
+            main.Visible = not main.Visible
+        end
+        floatBtn.Activated:Connect(toggleFromFloat)
+        floatBtn.MouseButton1Click:Connect(toggleFromFloat)
+
+        -- PC Keybind (RightControl) to toggle GUI
+        UserInputService.InputBegan:Connect(function(input, gpe)
+            if gpe then return end
+            if input.KeyCode == Enum.KeyCode.RightControl then
+                main.Visible = not main.Visible
+            end
+        end)
+    end
+
+    local mainCorner = Instance.new("UICorner")
+    mainCorner.CornerRadius = UDim.new(0, 14)
+    mainCorner.Parent = main
+
+    local mainStroke = Instance.new("UIStroke")
+    mainStroke.Color = Color3.fromRGB(45, 52, 70)
+    mainStroke.Thickness = 1.2
+    mainStroke.Transparency = 0.2
+    mainStroke.Parent = main
+
+    -- Top Gradient Accent Bar
+    local accentLine = Instance.new("Frame")
+    accentLine.Name = "AccentLine"
+    accentLine.Size = UDim2.new(1, 0, 0, 3)
+    accentLine.Position = UDim2.new(0, 0, 0, 0)
+    accentLine.BackgroundColor3 = Color3.fromRGB(0, 255, 178)
+    accentLine.BorderSizePixel = 0
+    accentLine.Parent = main
+
+    local accentGrad = Instance.new("UIGradient")
+    accentGrad.Color = ColorSequence.new({
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 255, 178)),
+        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(0, 180, 255)),
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(160, 90, 255))
+    })
+    accentGrad.Parent = accentLine
+
+    -- Header Section (Draggable Handle)
+    local header = Instance.new("Frame")
+    header.Name = "Header"
+    header.Size = UDim2.new(1, -20, 0, 32)
+    header.Position = UDim2.new(0, 10, 0, 8)
+    header.BackgroundTransparency = 1
+    header.Active = true
+    header.Parent = main
+
+    -- Smooth Header Dragging Mechanism (Mobile Touch & PC Mouse, Never stalls)
+    local dragging = false
+    local dragStart, startPos
+
+    header.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+            dragging = true
+            dragStart = input.Position
+            startPos = main.Position
+
+            local conn
+            conn = input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    dragging = false
+                    if conn then conn:Disconnect() end
+                end
+            end)
+        end
+    end)
+
+    UserInputService.InputChanged:Connect(function(input)
+        if dragging and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+            local delta = input.Position - dragStart
+            main.Position = UDim2.new(
+                startPos.X.Scale,
+                startPos.X.Offset + delta.X,
+                startPos.Y.Scale,
+                startPos.Y.Offset + delta.Y
+            )
+        end
+    end)
+
+    -- Pulse Live Dot
+    local liveDot = Instance.new("Frame")
+    liveDot.Name = "LiveDot"
+    liveDot.Size = UDim2.new(0, 8, 0, 8)
+    liveDot.Position = UDim2.new(0, 4, 0.5, -4)
+    liveDot.BackgroundColor3 = Color3.fromRGB(0, 255, 160)
+    liveDot.BorderSizePixel = 0
+    liveDot.Parent = header
+
+    local dotCorner = Instance.new("UICorner")
+    dotCorner.CornerRadius = UDim.new(1, 0)
+    dotCorner.Parent = liveDot
+
+    -- Title
+    local titleLbl = Instance.new("TextLabel")
+    titleLbl.Name = "Title"
+    titleLbl.Size = UDim2.new(1, -60, 0, 18)
+    titleLbl.Position = UDim2.new(0, 18, 0, 2)
+    titleLbl.BackgroundTransparency = 1
+    titleLbl.Font = Enum.Font.GothamBold
+    titleLbl.TextSize = 13
+    titleLbl.TextColor3 = Color3.fromRGB(255, 255, 255)
+    titleLbl.TextXAlignment = Enum.TextXAlignment.Left
+    titleLbl.Text = "STREET HUB"
+    titleLbl.Parent = header
+
+    local titleGrad = Instance.new("UIGradient")
+    titleGrad.Color = ColorSequence.new({
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 240, 200))
+    })
+    titleGrad.Parent = titleLbl
+
+    local subTitleLbl = Instance.new("TextLabel")
+    subTitleLbl.Name = "Subtitle"
+    subTitleLbl.Size = UDim2.new(1, -60, 0, 12)
+    subTitleLbl.Position = UDim2.new(0, 18, 0, 18)
+    subTitleLbl.BackgroundTransparency = 1
+    subTitleLbl.Font = Enum.Font.Gotham
+    subTitleLbl.TextSize = 9
+    subTitleLbl.TextColor3 = Color3.fromRGB(130, 145, 170)
+    subTitleLbl.TextXAlignment = Enum.TextXAlignment.Left
+    subTitleLbl.Text = string.format("KAI TAN AUTOMATION · V2.5 [%s]", CurrentExecutor)
+    subTitleLbl.Parent = header
+
+    -- Minimize Toggle Button
+    local minBtn = Instance.new("TextButton")
+    minBtn.Name = "MinBtn"
+    minBtn.Size = UDim2.new(0, 24, 0, 24)
+    minBtn.Position = UDim2.new(1, -26, 0.5, -12)
+    minBtn.BackgroundColor3 = Color3.fromRGB(28, 33, 46)
+    minBtn.Font = Enum.Font.GothamBold
+    minBtn.TextSize = 13
+    minBtn.TextColor3 = Color3.fromRGB(180, 195, 220)
+    minBtn.Text = "−"
+    minBtn.AutoButtonColor = true
+    minBtn.Active = true
+    minBtn.Selectable = true
+    minBtn.ZIndex = 5
+    minBtn.Parent = header
+
+    local minCorner = Instance.new("UICorner")
+    minCorner.CornerRadius = UDim.new(0, 6)
+    minCorner.Parent = minBtn
+
+    local isMinimized = false
+    local minDebounce = false
+    local function toggleMin()
+        if minDebounce then return end
+        minDebounce = true
+        task.delay(0.2, function() minDebounce = false end)
+
+        isMinimized = not isMinimized
+        if isMinimized then
+            minBtn.Text = "+"
+            main:TweenSize(UDim2.new(0, 270, 0, 44), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, 0.25, true)
+        else
+            minBtn.Text = "−"
+            main:TweenSize(UDim2.new(0, 270, 0, 396), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, 0.25, true)
+        end
+    end
+    minBtn.Activated:Connect(toggleMin)
+    minBtn.MouseButton1Click:Connect(toggleMin)
+
+    -- Content Body
+    local body = Instance.new("Frame")
+    body.Name = "Body"
+    body.Size = UDim2.new(1, -20, 1, -50)
+    body.Position = UDim2.new(0, 10, 0, 44)
+    body.BackgroundTransparency = 1
+    body.Parent = main
+
+    -- Level Progress Card
+    local levelCard = Instance.new("Frame")
+    levelCard.Name = "LevelCard"
+    levelCard.Size = UDim2.new(1, 0, 0, 42)
+    levelCard.Position = UDim2.new(0, 0, 0, 0)
+    levelCard.BackgroundColor3 = Color3.fromRGB(22, 26, 38)
+    levelCard.BorderSizePixel = 0
+    levelCard.Parent = body
+
+    local lcCorner = Instance.new("UICorner")
+    lcCorner.CornerRadius = UDim.new(0, 8)
+    lcCorner.Parent = levelCard
+
+    local lcStroke = Instance.new("UIStroke")
+    lcStroke.Color = Color3.fromRGB(36, 42, 60)
+    lcStroke.Thickness = 1
+    lcStroke.Parent = levelCard
+
+    local levelText = Instance.new("TextLabel")
+    levelText.Name = "LevelText"
+    levelText.Size = UDim2.new(1, -16, 0, 16)
+    levelText.Position = UDim2.new(0, 8, 0, 6)
+    levelText.BackgroundTransparency = 1
+    levelText.Font = Enum.Font.GothamBold
+    levelText.TextSize = 11
+    levelText.TextColor3 = Color3.fromRGB(240, 245, 255)
+    levelText.TextXAlignment = Enum.TextXAlignment.Left
+    levelText.Text = "LEVEL PROGRESS: 1 / 99"
+    levelText.Parent = levelCard
+
+    local percentText = Instance.new("TextLabel")
+    percentText.Name = "PercentText"
+    percentText.Size = UDim2.new(0, 50, 0, 16)
+    percentText.Position = UDim2.new(1, -58, 0, 6)
+    percentText.BackgroundTransparency = 1
+    percentText.Font = Enum.Font.GothamBold
+    percentText.TextSize = 11
+    percentText.TextColor3 = Color3.fromRGB(0, 255, 178)
+    percentText.TextXAlignment = Enum.TextXAlignment.Right
+    percentText.Text = "1%"
+    percentText.Parent = levelCard
+
+    local barBg = Instance.new("Frame")
+    barBg.Name = "BarBg"
+    barBg.Size = UDim2.new(1, -16, 0, 6)
+    barBg.Position = UDim2.new(0, 8, 0, 26)
+    barBg.BackgroundColor3 = Color3.fromRGB(14, 16, 24)
+    barBg.BorderSizePixel = 0
+    barBg.Parent = levelCard
+
+    local barBgCorner = Instance.new("UICorner")
+    barBgCorner.CornerRadius = UDim.new(1, 0)
+    barBgCorner.Parent = barBg
+
+    local barFill = Instance.new("Frame")
+    barFill.Name = "BarFill"
+    barFill.Size = UDim2.new(0.01, 0, 1, 0)
+    barFill.BackgroundColor3 = Color3.fromRGB(0, 255, 178)
+    barFill.BorderSizePixel = 0
+    barFill.Parent = barBg
+
+    local barFillCorner = Instance.new("UICorner")
+    barFillCorner.CornerRadius = UDim.new(1, 0)
+    barFillCorner.Parent = barFill
+
+    local barGrad = Instance.new("UIGradient")
+    barGrad.Color = ColorSequence.new({
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 255, 178)),
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 170, 255))
+    })
+    barGrad.Parent = barFill
+
+    -- Helper to build styled info tiles
+    local function makeTile(name, pos, size, icon, title, val)
+        local tile = Instance.new("Frame")
+        tile.Name = name
+        tile.Size = size
+        tile.Position = pos
+        tile.BackgroundColor3 = Color3.fromRGB(22, 26, 38)
+        tile.BorderSizePixel = 0
+        tile.Parent = body
+
+        local tCorner = Instance.new("UICorner")
+        tCorner.CornerRadius = UDim.new(0, 8)
+        tCorner.Parent = tile
+
+        local tStroke = Instance.new("UIStroke")
+        tStroke.Color = Color3.fromRGB(36, 42, 60)
+        tStroke.Thickness = 1
+        tStroke.Parent = tile
+
+        local tHead = Instance.new("TextLabel")
+        tHead.Size = UDim2.new(1, -12, 0, 14)
+        tHead.Position = UDim2.new(0, 8, 0, 5)
+        tHead.BackgroundTransparency = 1
+        tHead.Font = Enum.Font.GothamMedium
+        tHead.TextSize = 9
+        tHead.TextColor3 = Color3.fromRGB(120, 135, 160)
+        tHead.TextXAlignment = Enum.TextXAlignment.Left
+        tHead.Text = icon .. " " .. title:upper()
+        tHead.Parent = tile
+
+        local tVal = Instance.new("TextLabel")
+        tVal.Name = "Value"
+        tVal.Size = UDim2.new(1, -12, 0, 16)
+        tVal.Position = UDim2.new(0, 8, 0, 18)
+        tVal.BackgroundTransparency = 1
+        tVal.Font = Enum.Font.GothamBold
+        tVal.TextSize = 11
+        tVal.TextColor3 = Color3.fromRGB(235, 240, 250)
+        tVal.TextXAlignment = Enum.TextXAlignment.Left
+        tVal.TextTruncate = Enum.TextTruncate.AtEnd
+        tVal.Text = val
+        tVal.Parent = tile
+
+        return tVal
+    end
+
+    -- 5 Metric Cards
+    local zoneVal = makeTile("ZoneTile", UDim2.new(0, 0, 0, 48), UDim2.new(0.48, 0, 0, 38), "🗺️", "Zone", "Locating...")
+    local silverVal = makeTile("SilverTile", UDim2.new(0.52, 0, 0, 48), UDim2.new(0.48, 0, 0, 38), "💰", "Silver & Event", "0")
+    silverVal.TextSize = 10
+    local questVal = makeTile("QuestTile", UDim2.new(0, 0, 0, 92), UDim2.new(1, 0, 0, 38), "📜", "Active Quest", "Syncing...")
+    local speedVal = makeTile("SpeedTile", UDim2.new(0, 0, 0, 136), UDim2.new(1, 0, 0, 38), "⚡", "Speed Potion", "Checking...")
+    local statusVal = makeTile("StatusTile", UDim2.new(0, 0, 0, 180), UDim2.new(1, 0, 0, 38), "🛡️", "Bot Status", "Initializing")
+
+    -- Action Toggle Buttons (Farm & Dodge)
+    local buttonRow = Instance.new("Frame")
+    buttonRow.Name = "ButtonRow"
+    buttonRow.Size = UDim2.new(1, 0, 0, 30)
+    buttonRow.Position = UDim2.new(0, 0, 0, 224)
+    buttonRow.BackgroundTransparency = 1
+    buttonRow.ZIndex = 5
+    buttonRow.Parent = body
+
+    local farmBtn = Instance.new("TextButton")
+    farmBtn.Name = "FarmBtn"
+    farmBtn.Size = UDim2.new(0.48, 0, 1, 0)
+    farmBtn.Position = UDim2.new(0, 0, 0, 0)
+    farmBtn.BackgroundColor3 = Color3.fromRGB(18, 54, 40)
+    farmBtn.BorderSizePixel = 0
+    farmBtn.Font = Enum.Font.GothamBold
+    farmBtn.TextSize = 11
+    farmBtn.TextColor3 = Color3.fromRGB(0, 255, 178)
+    farmBtn.Text = "⚡ FARM: ON"
+    farmBtn.AutoButtonColor = true
+    farmBtn.Active = true
+    farmBtn.Selectable = true
+    farmBtn.ZIndex = 10
+    farmBtn.Parent = buttonRow
+
+    local farmBtnCorner = Instance.new("UICorner")
+    farmBtnCorner.CornerRadius = UDim.new(0, 8)
+    farmBtnCorner.Parent = farmBtn
+
+    local farmBtnStroke = Instance.new("UIStroke")
+    farmBtnStroke.Color = Color3.fromRGB(0, 200, 130)
+    farmBtnStroke.Thickness = 1
+    farmBtnStroke.Parent = farmBtn
+
+    local dodgeBtn = Instance.new("TextButton")
+    dodgeBtn.Name = "DodgeBtn"
+    dodgeBtn.Size = UDim2.new(0.48, 0, 1, 0)
+    dodgeBtn.Position = UDim2.new(0.52, 0, 0, 0)
+    dodgeBtn.BackgroundColor3 = Color3.fromRGB(20, 42, 65)
+    dodgeBtn.BorderSizePixel = 0
+    dodgeBtn.Font = Enum.Font.GothamBold
+    dodgeBtn.TextSize = 11
+    dodgeBtn.TextColor3 = Color3.fromRGB(0, 190, 255)
+    dodgeBtn.Text = "🛡️ DODGE: ON"
+    dodgeBtn.AutoButtonColor = true
+    dodgeBtn.Active = true
+    dodgeBtn.Selectable = true
+    dodgeBtn.ZIndex = 10
+    dodgeBtn.Parent = buttonRow
+
+    local dodgeBtnCorner = Instance.new("UICorner")
+    dodgeBtnCorner.CornerRadius = UDim.new(0, 8)
+    dodgeBtnCorner.Parent = dodgeBtn
+
+    local dodgeBtnStroke = Instance.new("UIStroke")
+    dodgeBtnStroke.Color = Color3.fromRGB(0, 140, 220)
+    dodgeBtnStroke.Thickness = 1
+    dodgeBtnStroke.Parent = dodgeBtn
+
+    -- Low CPU / Black Screen Button Row
+    local lowCpuRow = Instance.new("Frame")
+    lowCpuRow.Name = "LowCpuRow"
+    lowCpuRow.Size = UDim2.new(1, 0, 0, 30)
+    lowCpuRow.Position = UDim2.new(0, 0, 0, 258)
+    lowCpuRow.BackgroundTransparency = 1
+    lowCpuRow.ZIndex = 5
+    lowCpuRow.Parent = body
+
+    local lowCpuBtn = Instance.new("TextButton")
+    lowCpuBtn.Name = "LowCpuBtn"
+    lowCpuBtn.Size = UDim2.new(1, 0, 1, 0)
+    lowCpuBtn.Position = UDim2.new(0, 0, 0, 0)
+    lowCpuBtn.Font = Enum.Font.GothamBold
+    lowCpuBtn.TextSize = 11
+    lowCpuBtn.AutoButtonColor = true
+    lowCpuBtn.Active = true
+    lowCpuBtn.Selectable = true
+    lowCpuBtn.ZIndex = 10
+    lowCpuBtn.Parent = lowCpuRow
+
+    local lowCpuCorner = Instance.new("UICorner")
+    lowCpuCorner.CornerRadius = UDim.new(0, 8)
+    lowCpuCorner.Parent = lowCpuBtn
+
+    local lowCpuStroke = Instance.new("UIStroke")
+    lowCpuStroke.Thickness = 1
+    lowCpuStroke.Parent = lowCpuBtn
+
+    -- Halloween Event Button Row
+    local halloweenRow = Instance.new("Frame")
+    halloweenRow.Name = "HalloweenRow"
+    halloweenRow.Size = UDim2.new(1, 0, 0, 30)
+    halloweenRow.Position = UDim2.new(0, 0, 0, 292)
+    halloweenRow.BackgroundTransparency = 1
+    halloweenRow.ZIndex = 5
+    halloweenRow.Parent = body
+
+    local halloweenBtn = Instance.new("TextButton")
+    halloweenBtn.Name = "HalloweenBtn"
+    halloweenBtn.Size = UDim2.new(1, 0, 1, 0)
+    halloweenBtn.Position = UDim2.new(0, 0, 0, 0)
+    halloweenBtn.Font = Enum.Font.GothamBold
+    halloweenBtn.TextSize = 11
+    halloweenBtn.AutoButtonColor = true
+    halloweenBtn.Active = true
+    halloweenBtn.Selectable = true
+    halloweenBtn.ZIndex = 10
+    halloweenBtn.Parent = halloweenRow
+
+    local hwCorner = Instance.new("UICorner")
+    hwCorner.CornerRadius = UDim.new(0, 8)
+    hwCorner.Parent = halloweenBtn
+
+    local hwStroke = Instance.new("UIStroke")
+    hwStroke.Thickness = 1
+    hwStroke.Parent = halloweenBtn
+
+    -- Update UI styles for buttons
+    local function updateFarmUI(state)
+        if state then
+            farmBtn.BackgroundColor3 = Color3.fromRGB(18, 54, 40)
+            farmBtn.TextColor3 = Color3.fromRGB(0, 255, 178)
+            farmBtnStroke.Color = Color3.fromRGB(0, 200, 130)
+            farmBtn.Text = "⚡ FARM: ON"
+        else
+            farmBtn.BackgroundColor3 = Color3.fromRGB(45, 25, 25)
+            farmBtn.TextColor3 = Color3.fromRGB(255, 110, 110)
+            farmBtnStroke.Color = Color3.fromRGB(180, 50, 50)
+            farmBtn.Text = "⏸️ FARM: OFF"
+        end
+    end
+
+    local function updateDodgeUI(state)
+        if state then
+            dodgeBtn.BackgroundColor3 = Color3.fromRGB(20, 42, 65)
+            dodgeBtn.TextColor3 = Color3.fromRGB(0, 190, 255)
+            dodgeBtnStroke.Color = Color3.fromRGB(0, 140, 220)
+            dodgeBtn.Text = "🛡️ DODGE: ON"
+        else
+            dodgeBtn.BackgroundColor3 = Color3.fromRGB(36, 38, 48)
+            dodgeBtn.TextColor3 = Color3.fromRGB(140, 150, 170)
+            dodgeBtnStroke.Color = Color3.fromRGB(60, 65, 80)
+            dodgeBtn.Text = "🛡️ DODGE: OFF"
+        end
+    end
+
+    local function updateLowCpuUI(state)
+        if state then
+            lowCpuBtn.BackgroundColor3 = Color3.fromRGB(48, 28, 64)
+            lowCpuBtn.TextColor3 = Color3.fromRGB(220, 175, 255)
+            lowCpuStroke.Color = Color3.fromRGB(170, 95, 255)
+            lowCpuBtn.Text = "💻 LOW CPU: ON (BLACK SCREEN)"
+        else
+            lowCpuBtn.BackgroundColor3 = Color3.fromRGB(25, 30, 42)
+            lowCpuBtn.TextColor3 = Color3.fromRGB(150, 165, 190)
+            lowCpuStroke.Color = Color3.fromRGB(48, 56, 75)
+            lowCpuBtn.Text = "💻 LOW CPU: OFF (NORMAL 3D)"
+        end
+    end
+
+    local function updateHalloweenUI(state)
+        if state then
+            halloweenBtn.BackgroundColor3 = Color3.fromRGB(55, 32, 16)
+            halloweenBtn.TextColor3 = Color3.fromRGB(255, 170, 50)
+            hwStroke.Color = Color3.fromRGB(220, 120, 20)
+            halloweenBtn.Text = "🎃 HALLOWEEN: ON (AUTO KNOCK)"
+        else
+            halloweenBtn.BackgroundColor3 = Color3.fromRGB(25, 30, 42)
+            halloweenBtn.TextColor3 = Color3.fromRGB(150, 165, 190)
+            hwStroke.Color = Color3.fromRGB(48, 56, 75)
+            halloweenBtn.Text = "🎃 HALLOWEEN: OFF (MANUAL)"
+        end
+    end
+
+    -- Initial UI State Sync
+    updateFarmUI(Config.AutoFarm)
+    updateDodgeUI(Config.AutoDodge)
+    updateLowCpuUI(Config.LowCPU)
+    updateHalloweenUI(Config.AutoHalloweenKnock)
+
+    -- Toggle Farm Button Logic
+    local farmDebounce = false
+    local function toggleFarm()
+        if farmDebounce then return end
+        farmDebounce = true
+        task.delay(0.2, function() farmDebounce = false end)
+
+        Config.AutoFarm = not Config.AutoFarm
+        updateFarmUI(Config.AutoFarm)
+
+        if not Config.AutoFarm then
+            DisableNativeAutoAttack()
+            local root = GetChar()
+            ClearHover(root)
+            CurrentTarget = nil
+            pcall(function()
+                LocalPlayer:SetAttribute("CurrentTarget", nil)
+                local ctVal = LocalPlayer:FindFirstChild("CurrentTarget")
+                if ctVal then ctVal.Value = nil end
+                if Remotes and Remotes.SetTarget then
+                    Remotes.SetTarget:FireServer(nil, false, false)
+                end
+            end)
+        else
+            task.defer(EnsureNativeAutoAttack)
+        end
+    end
+
+    farmBtn.Activated:Connect(toggleFarm)
+    farmBtn.MouseButton1Click:Connect(toggleFarm)
+
+    -- Toggle Dodge Button Logic
+    local dodgeDebounce = false
+    local function toggleDodge()
+        if dodgeDebounce then return end
+        dodgeDebounce = true
+        task.delay(0.2, function() dodgeDebounce = false end)
+
+        Config.AutoDodge = not Config.AutoDodge
+        updateDodgeUI(Config.AutoDodge)
+
+        if not Config.AutoDodge then
+            DodgeActiveUntil = 0
+            DodgeTargetPos = nil
+        end
+    end
+
+    dodgeBtn.Activated:Connect(toggleDodge)
+    dodgeBtn.MouseButton1Click:Connect(toggleDodge)
+
+    -- Toggle Low CPU Button Logic
+    local lowCpuDebounce = false
+    local function toggleLowCpu()
+        if lowCpuDebounce then return end
+        lowCpuDebounce = true
+        task.delay(0.2, function() lowCpuDebounce = false end)
+
+        local nextState = not Config.LowCPU
+        SetLowCPUMode(nextState)
+        updateLowCpuUI(Config.LowCPU)
+    end
+
+    lowCpuBtn.Activated:Connect(toggleLowCpu)
+    lowCpuBtn.MouseButton1Click:Connect(toggleLowCpu)
+
+    -- Toggle Halloween Event Button Logic
+    local hwDebounce = false
+    local function toggleHalloween()
+        if hwDebounce then return end
+        hwDebounce = true
+        task.delay(0.2, function() hwDebounce = false end)
+
+        Config.AutoHalloweenKnock = not Config.AutoHalloweenKnock
+        updateHalloweenUI(Config.AutoHalloweenKnock)
+        if Config.AutoHalloweenKnock then
+            task.spawn(function() ProcessAutoHalloweenKnock(true) end)
+        end
+    end
+
+    halloweenBtn.Activated:Connect(toggleHalloween)
+    halloweenBtn.MouseButton1Click:Connect(toggleHalloween)
+
+    -- Hover tactile visual feedback
+    farmBtn.MouseEnter:Connect(function()
+        farmBtn.BackgroundTransparency = 0.2
+    end)
+    farmBtn.MouseLeave:Connect(function()
+        farmBtn.BackgroundTransparency = 0
+    end)
+    dodgeBtn.MouseEnter:Connect(function()
+        dodgeBtn.BackgroundTransparency = 0.2
+    end)
+    dodgeBtn.MouseLeave:Connect(function()
+        dodgeBtn.BackgroundTransparency = 0
+    end)
+    lowCpuBtn.MouseEnter:Connect(function()
+        lowCpuBtn.BackgroundTransparency = 0.2
+    end)
+    lowCpuBtn.MouseLeave:Connect(function()
+        lowCpuBtn.BackgroundTransparency = 0
+    end)
+    halloweenBtn.MouseEnter:Connect(function()
+        halloweenBtn.BackgroundTransparency = 0.2
+    end)
+    halloweenBtn.MouseLeave:Connect(function()
+        halloweenBtn.BackgroundTransparency = 0
+    end)
+
+    -- Number formatting helper
+    local function formatNumber(n)
+        local formatted = tostring(math.floor(n or 0))
+        local k
+        while true do
+            formatted, k = string.gsub(formatted, "^(-?%d+)(%d%d%d)", '%1,%2')
+            if k == 0 then break end
+        end
+        return formatted
+    end
+
+    -- Live UI Updater Loop
+    task.spawn(function()
+        local pulse = 0
+        while main.Parent and _G.KaiTan_ActiveInstance == ScriptInstanceId do
+            task.wait(0.4)
+            pulse = (pulse + 1) % 2
+            liveDot.BackgroundTransparency = (pulse == 0) and 0.1 or 0.6
+
+            local lvl = GetPlayerLevel()
+            local maxLvl = Config.TargetLevel or 99
+            local pct = math.clamp(lvl / maxLvl, 0.01, 1)
+
+            levelText.Text = string.format("LEVEL PROGRESS: %d / %d", lvl, maxLvl)
+            percentText.Text = string.format("%d%%", math.floor(pct * 100))
+            barFill.Size = UDim2.new(pct, 0, 1, 0)
+
+            local zName = CurrentZoneName or "Locating..."
+            zoneVal.Text = zName
+
+            local silv = LocalPlayer:GetAttribute("Silver") or 0
+            local curCandy = 0
+            local curPumpkin = 0
+            pcall(function()
+                local itm = HttpService:JSONDecode(LocalPlayer:GetAttribute("ItemsJson") or "{}")
+                curCandy = tonumber(itm["halloween_candy"]) or 0
+                curPumpkin = tonumber(itm["pumpkin_head"]) or 0
+            end)
+            silverVal.Text = string.format("%s · 🍬 %d · 🎃 %d", formatNumber(silv), curCandy, curPumpkin)
+
+            local qTxt = CurrentQuestSummary
+            if not qTxt or qTxt == "" or qTxt == "None" then
+                questVal.Text = "All Quests Completed ✓"
+                questVal.TextColor3 = Color3.fromRGB(0, 255, 178)
+            else
+                questVal.Text = qTxt
+                questVal.TextColor3 = Color3.fromRGB(235, 240, 250)
+            end
+
+            -- Live Speed Potion Status
+            local actBuff, actTier, actRem = GetActiveHasteBuff()
+            if actBuff and actRem > 0 then
+                local mins = math.floor(actRem / 60)
+                local secs = math.floor(actRem % 60)
+                local tName = (actTier == 3 and "ASPD III (+20%)") or (actTier == 2 and "ASPD II (+15%)") or "ASPD I (+10%)"
+                speedVal.Text = string.format("%s · %02d:%02d", tName, mins, secs)
+                speedVal.TextColor3 = Color3.fromRGB(0, 255, 178)
+            else
+                local bestPot, potCount = GetBestEligibleSpeedPotion()
+                if bestPot and potCount > 0 then
+                    speedVal.Text = string.format("Drinking %s (x%d)", bestPot.name, potCount)
+                    speedVal.TextColor3 = Color3.fromRGB(255, 200, 80)
+                else
+                    speedVal.Text = "None in Bag (Will Buy in Town)"
+                    speedVal.TextColor3 = Color3.fromRGB(255, 140, 140)
+                end
+            end
+
+            if IsProcessingEventNpc then
+                statusVal.Text = "Claiming Pet & Event Rewards 🐢"
+                statusVal.TextColor3 = Color3.fromRGB(0, 255, 178)
+            elseif IsKnockingHalloween then
+                statusVal.Text = "Knocking Witch's House 🎃"
+                statusVal.TextColor3 = Color3.fromRGB(255, 150, 40)
+            elseif IsBuyingPotions then
+                statusVal.Text = "Restocking Potions in Town 🧪"
+                statusVal.TextColor3 = Color3.fromRGB(0, 200, 255)
+            elseif IsSellingGear then
+                statusVal.Text = "Selling Gear at Merchant 🎒"
+                statusVal.TextColor3 = Color3.fromRGB(255, 180, 50)
+            elseif IsRetreatingForPotions then
+                statusVal.Text = string.format("Farming Potion Silver (Deaths: %d) 🧪", DeathCountInZone)
+                statusVal.TextColor3 = Color3.fromRGB(255, 170, 50)
+            elseif Config.AutoFarm then
+                if DeathCountInZone > 0 then
+                    statusVal.Text = string.format("Auto Farming · Deaths: %d/10 ⚡", DeathCountInZone)
+                elseif Config.StandBehind then
+                    statusVal.Text = "Auto Farming · Behind Monster ⚔️"
+                else
+                    statusVal.Text = "Auto Farming · 60 FPS Hover ⚡"
+                end
+                statusVal.TextColor3 = Color3.fromRGB(0, 255, 178)
+            else
+                statusVal.Text = "Paused · Manual Mode ⏸️"
+                statusVal.TextColor3 = Color3.fromRGB(255, 160, 60)
+            end
+        end
+    end)
+end)
+
+print("[spinach] Kai Tan Bot Initialized Successfully for paneer!")
+
